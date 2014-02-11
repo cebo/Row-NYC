@@ -1,0 +1,13 @@
+/* Flexslider ---------------------------------------------------- */
+
+.flexslider {
+	border: 0;
+	overflow: hidden;
+	height: 500px;
+	margin-bottom: 0;
+}
+
+.flexslider .slides > li {
+    position: relative;
+    height: 500px;
+}

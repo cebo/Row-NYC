@@ -1582,3 +1582,123 @@ p {
     overflow: hidden;
     padding-right: 4%;
 }
+
+
+
+/* Single - Rooms ---------------------------------------------------- */
+
+.rooms-book-now.slide-booking {
+    height: auto;
+}
+
+.rooms-book-now.slide-booking .left {
+    padding: 15px;
+    width: 67.3%;
+}
+
+.slide-booking .left > p {
+    font-family: GothamCondensedMedium,sans-serif;
+    font-size: 19px;
+    padding-bottom: 0;
+}
+
+.rooms-book-now.slide-booking .right a {
+    line-height: 4.6;
+    display: block;
+}
+
+.room-more-details {
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.7);
+    overflow: hidden;
+    position: relative;
+}
+
+.room-details {
+	width: 100%;
+}
+
+.room-details li.room-detail {
+    float: left;
+    margin-right: 42px;
+    width: 30.8%;
+}
+
+.room-details li.room-detail:last-child {
+    margin-right: 0;
+}
+
+.room-details-content {
+    margin: 25px auto 0;
+    width: 85%;
+}
+
+.room-details-content > ul {
+    padding-left: 40px;
+}
+
+.room-details-content li {
+    font-family: GothamLight,sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    list-style: disc outside none;
+}
+
+.room-details-content > h4 {
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.detail-features {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 25px;
+}
+
+.detail-features > ul {
+    padding-bottom: 0;
+}
+
+.detail-features > h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+/*.room-details-content .detail-features li:before {
+    content: "\f10b";
+    font-family: font-awesome;
+    font-size: 30px;
+    line-height: 1;
+    margin-left: -20px;
+    margin-right: 10px;
+}*/
+
+.room-details-content .detail-features li {
+	background-repeat: no-repeat;
+	background-position: 0 center;
+    line-height: 3;
+    list-style: none outside none;
+    padding-left: 44px;
+}
+
+.room-details-content .detail-features li.ico-mobile {
+	background-image: url(images/icons/ico-mobile.png);
+	background-position: 7px center;
+}
+
+.room-details-content .detail-features li.ico-tv {
+	background-image: url(images/icons/ico-tv.png);
+}
+
+.room-details-content .detail-features li.ico-wifi {
+	background-image: url(images/icons/ico-wifi.png);
+	background-position: 3px center;
+}
+
+.room-details-content .detail-features li.ico-cable {
+	background-image: url(images/icons/ico-cable.png);
+	background-position: 3px center;
+}
+
+.room-details-content .detail-features li.ico-desk {
+	background-image: url(images/icons/ico-desk.png);
+}
