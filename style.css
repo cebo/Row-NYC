@@ -331,8 +331,13 @@ p {
 	z-index: 99;
 	border-top:  2px solid #373637;
 }
+
+.navigate.slipnot .supernav .subinside {
+    background: none repeat scroll 0 0 #DFDFDF;
+}
+
 .navigate .supernav li:hover {
-	background: #fff;
+	background: none repeat scroll 0 0 rgba(255,255,255,.6);
 	z-index: 999;
 }
 
@@ -354,7 +359,7 @@ p {
 	height: 100%;
 	z-index: 0;
 	top: 0;
-	background: transparent;
+	background: #DFDFDF;
 	visibility: hidden;
 	opacity: 0;
 	-webkit-transition: all 0.4s ease-in-out;
@@ -402,17 +407,18 @@ p {
 
 
 .navigate .supernav li ul.dropbox li {
-	padding: 0px;
-	z-index: 1 !important;
-	height: auto;
-	margin-left: -10px;
-	visibility: hidden;
-	opacity: 0;
+    border: 0 none;
+    height: auto;
+    margin: 0 0 0 -10px;
+    opacity: 0;
+    overflow: hidden;
+    padding: 10px 0;
+    visibility: hidden;
+    z-index: 1 !important;
 	-webkit-transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
-	overflow: scroll;
 }
 
 .slipnot .supernav li ul.dropbox li {
@@ -1515,3 +1521,64 @@ p {
 
 
 
+/* Rooms Page Styles ---------------------------------------------------- */
+
+.rooms .fourth-level {
+	margin: 0;
+}
+
+.rooms .fullspan {
+	margin-bottom: 0;
+}
+
+.rooms .suboverlay h4 {
+	font-family: 'GothamLight', sans-serif;
+	font-weight: 300;
+}
+
+.rooms-book-now {
+    bottom: 0;
+    height: 40px;
+    position: absolute;
+    width: 100%;
+}
+
+.rooms-book-now .left, .rooms-book-now .right {
+	height: 100%;
+	line-height: 2.3;
+}
+
+.rooms-book-now .left {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
+    width: 70%;
+}
+
+.rooms-book-now .right {
+    width: 30%;
+}
+
+.rooms-book-now .right a {
+	transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    background: none repeat scroll 0 0 rgba(250, 156, 3, 0.7);
+    color: #FFFFFF;
+    height: 100%;
+    line-height: 2.5;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+	.rooms-book-now .right a:hover {
+		background: none repeat scroll 0 0 rgba(250, 156, 3, 1);
+	}
+
+.rooms-book-now .left > h4 {
+    line-height: 2;
+    margin-bottom: 0;
+    margin-left: 4%;
+    max-width: 100%;
+    overflow: hidden;
+    padding-right: 4%;
+}
