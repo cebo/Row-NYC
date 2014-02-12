@@ -1066,7 +1066,7 @@ p {
 	position: absolute;
 	background: rgba(255,255,255,0.7);
 	width: 65%;
-	padding: 20px;
+	padding: 12px 20px 12px 12px;
 	bottom: 0%;
 	z-index: 99999;
 	right: 0%;
@@ -1089,6 +1089,9 @@ p {
 	-moz-animation-delay:.5s;
 	-ms-animation-delay:.5s;
 	-o-animation-delay:.5s;
+	transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
 }
 .littleover p {
 	padding: 0 0 5px 0;
@@ -1365,13 +1368,16 @@ p {
 }
 
 .blogposts li:hover {
-	opacity: .8;
+	opacity: .85;
 	-webkit-column-break-inside:avoid;
 		-moz-column-break-inside:avoid;
 		-o-column-break-inside:avoid;
 		-ms-column-break-inside:avoid;
 		column-break-inside:avoid;
 		-webkit-backface-visibility:hidden;
+	transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
 }
 
 .blogposts li {
@@ -1701,4 +1707,23 @@ p {
 
 .room-details-content .detail-features li.ico-desk {
 	background-image: url(images/icons/ico-desk.png);
+}
+
+
+
+/* Page - Explore ---------------------------------------------------- */
+
+.page-intro {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.7);
+    padding: 50px 20px 20px;
+}
+
+.page-intro > h1 {
+	font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.page-intro h4.sub-line {
+	color: #666666;
+	font-size: 21px;
 }
