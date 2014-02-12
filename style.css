@@ -1527,6 +1527,14 @@ p {
 
 
 
+/* General Page / Single Styles ---------------------------------------------------- */
+
+.single .contentarea {
+	height: auto;
+}
+
+
+
 /* Rooms Page Styles ---------------------------------------------------- */
 
 .rooms .fourth-level {
@@ -1727,3 +1735,79 @@ p {
 	color: #666666;
 	font-size: 21px;
 }
+
+
+
+/* Single - General Styles ---------------------------------------------------- */
+
+.single .home-intro {
+	margin-bottom: 0;
+}
+
+.page-content {
+	background: none repeat scroll 0 0 #FFFFFF;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.main-page-content.left {
+	background: none repeat scroll 0 0 #FFFFFF;
+    padding: 30px 40px;
+    width: 57%;
+}
+
+.maparea.right {
+    background: url("images/explore/single-explore-map.jpg") no-repeat scroll center  center / cover  #000000;
+    display: block;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    width: 35%;
+}
+
+.text-content.left {
+    width: 70%;
+}
+
+.extra-details.right {
+    padding-top: 70px;
+    width: 24%;
+}
+
+.text-content.left > h1 {
+    font-size: 39px;
+    line-height: 1;
+    margin-bottom: 25px;
+}
+
+.text-content.left > p {
+    font-family: gothambook;
+    font-size: 18px;
+    line-height: 1.6;
+    padding-bottom: 30px;
+}
+
+/* More details */
+
+.extra-details div {
+    margin-bottom: 10px;
+}
+
+.extra-details h4 {
+    font-size: 25px;
+    line-height: 1;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.extra-details li {
+    font-family: gothambook,sans-serif;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+
+
+/* Single - Explore ---------------------------------------------------- */
+
