@@ -237,6 +237,20 @@ p {
 	font-size: 14px;
 }
 
+.button {
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+    background: none repeat scroll 0 0 #FA9C03;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+	.button:hover {
+		color: #000;
+	}
+
 
 
 
@@ -1783,28 +1797,49 @@ p {
 
 .text-content.left > p {
     font-family: gothambook;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.6;
     padding-bottom: 30px;
 }
 
 /* More details */
 
-.extra-details div {
+.extra-details .extra-detail {
     margin-bottom: 10px;
 }
 
 .extra-details h4 {
-    font-size: 25px;
+    font-size: 18px;
     line-height: 1;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     text-transform: uppercase;
 }
 
 .extra-details li {
     font-family: gothambook,sans-serif;
-    font-size: 17px;
-    margin-bottom: 10px;
+    font-size: 13px;
+    margin-bottom: 9px;
+}
+
+.extra-detail.button-details {
+    margin-top: 20px;
+}
+
+/* Social media details */
+
+.social-media-details {
+    clear: both;
+    overflow: auto;
+}
+
+.social-media-details li {
+    float: left;
+    margin-right: 15px;
+}
+
+.social-media-details i {
+    color: #666666;
+    font-size: 30px;
 }
 
 
