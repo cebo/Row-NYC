@@ -237,6 +237,10 @@ p {
 	font-size: 14px;
 }
 
+
+
+/* General Styles ---------------------------------------------------- */
+
 .button {
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
@@ -1981,3 +1985,160 @@ p {
 	.page-content .listed-content a:hover {
 	    color: #FA9C03;
 	}
+
+
+
+/* Page - Concierge ---------------------------------------------------- */
+
+.page.concierge .page-content {
+    padding: 20px 40px;
+}
+
+.page.concierge .page-content > h1 {
+    font-size: 40px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.page.concierge .page-content > h3 {
+    color: #999999;
+    font-size: 22px;
+    line-height: 1.2;
+    text-transform: none;
+    margin-bottom: 15px;
+}
+
+.page.concierge .page-content div p span {
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.page.concierge .page-content div p span span {
+    color: #FA9C03;
+    margin-right: 0;
+}
+
+.concierge-box {
+    height: 207px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+	.concierge-box:hover .concierge-box-photo {
+	    transform: scale(1.05);
+	}
+
+.concierge-box .left {
+    height: 100%;
+    margin-left: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 55%;
+}
+
+.concierge-box .right {
+    overflow: hidden;
+    padding: 5% 5% 3.7%;
+    width: 34%;
+}
+
+.concierge-box-photo {
+	transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    height: 100%;
+    width: 100%;
+}
+
+.concierge-box .right p {
+    font-size: 14px;
+    padding-bottom: 7px;
+}
+
+.concierge-box .right a {
+	transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+}
+
+.concierge-box .wideover.overlay {
+    left: 25%;
+    margin-left: 0;
+    width: 40%;
+}
+
+.concierge-box .wideover.overlay h1 {
+    font-size: 23px;
+    line-height: 1.2;
+}
+
+.box-style-1 {
+	background: #fa9c03;
+}
+
+.box-style-1 a {
+	color: #666;
+}
+	.box-style-1 a:hover {
+		color: #fff;
+	}
+
+.box-style-1 p {
+	color: #000;
+}
+
+.box-style-2 {
+	background: #444444;
+}
+
+.box-style-2 a {
+	color: #fa9c03;
+}
+	.box-style-2 a:hover {
+		color: #ddd;
+	}
+
+.box-style-2 p {
+	color: #fff;
+}
+
+.box-style-3 {
+	background: #a8a8a8;
+}
+
+.box-style-3 a {
+	color: #000;
+}
+	.box-style-3 a:hover {
+		color: #ddd;
+	}
+
+.box-style-3 p {
+	color: #fff;
+}
+
+.box-style-4 {
+	background: #111111;
+}
+
+.box-style-4 a {
+	color: #fa9c03;
+}
+	.box-style-4 a:hover {
+		color: #ddd;
+	}
+
+.box-style-4 p {
+	color: #fff;
+}
+
+.concierge-box.box-style-4 .right {
+    padding: 9px 50px;
+}
+
+.concierge-box.box-style-4 .right p {
+    font-size: 14px;
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
