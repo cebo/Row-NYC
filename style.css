@@ -1151,6 +1151,13 @@ p {
     -webkit-transition: all 0.4s ease-in-out;
 }
 
+.openbox-up {
+	height: inherit;
+		transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+}
+
 .innerbox {
 	padding: 20px;
 	
@@ -1190,7 +1197,8 @@ p {
 }
 .openbox .fa-chevron-up {
 	display: block;
-}	
+}
+
 .leftside .guestrooms {
 	height: 70%;
 	margin-bottom: 10px;
@@ -1541,10 +1549,30 @@ p {
 
 
 
-/* General Page / Single Styles ---------------------------------------------------- */
+/* General Single Styles ---------------------------------------------------- */
 
-.single .contentarea {
+.single .contentarea, .page .contentarea {
 	height: auto;
+}
+
+
+
+/* General Page Styles ---------------------------------------------------- */
+
+.page .maparea.right {
+    height: 521px;
+    position: relative;
+    right: auto;
+    width: 361px;
+}
+
+.page .page-content {
+	padding: 15px;
+}
+
+.page .main-page-content.left {
+    padding: 0;
+    width: 64%;
 }
 
 
@@ -1754,7 +1782,7 @@ p {
 
 /* Single - General Styles ---------------------------------------------------- */
 
-.single .home-intro {
+.single .home-intro, .page .home-intro {
 	margin-bottom: 0;
 }
 
@@ -1844,5 +1872,112 @@ p {
 
 
 
-/* Single - Explore ---------------------------------------------------- */
+/* Page - Time Square ---------------------------------------------------- */
 
+/* Textbox area */
+
+.page.time-square .home-intro {
+    margin-bottom: 0;
+    margin-left: 300px;
+    width: auto;
+}
+
+.page.time-square .textbox {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.7);
+    bottom: 205px;
+    left: 300px;
+    position: absolute;
+    top: auto;
+    width: 50%;
+    z-index: 1;
+    height: 140px;
+}
+
+.page.time-square .innerbox {
+    padding: 15px;
+}
+
+.page.time-square .textbox.openbox-up {
+    min-height: 50%;
+    max-height: 50%;
+}
+
+.textbox-header h1 {
+    margin-bottom: 7px;
+}
+
+.page.time-square h4 {
+    clear: both;
+}
+
+.page.time-square .innerbox h5 {
+    color: #666666;
+    margin: 10px 0;
+}
+
+.page.time-square .innerbox .fa {
+    bottom: auto;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: auto;
+}
+
+.page.time-square .innerbox .fa-chevron-down {
+	display: none;
+}
+
+.page.time-square .innerbox .fa-chevron-up {
+	display: block;
+}
+
+.page.time-square .openbox-up .fa-chevron-up {
+	display: none;
+}
+
+.page.time-square .openbox-up .fa-chevron-down {
+	display: block;
+}
+
+
+
+/* Listed Content area */
+
+.page-content .listed-content {
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    width: 212px;
+}
+
+.listed-content:nth-child(8) {
+    clear: left;
+}
+
+.page-content .listed-content div {
+    padding: 10px;
+}
+
+.page-content .listed-content h3 {
+    color: #333333;
+    margin-bottom: 7px;
+    text-transform: none;
+}
+
+.page-content .listed-content p {
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+
+.page-content .listed-content a {
+	transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    color: #000000;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+	.page-content .listed-content a:hover {
+	    color: #FA9C03;
+	}
