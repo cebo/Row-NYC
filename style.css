@@ -183,6 +183,38 @@ img.right, img.alignright {float: right;margin: 0 0 7px 15px;}
 
 @-webkit-keyframes DropDown{0%{-webkit-transform:translateY(-20px)} 100%{-webkit-transform:translateY(0)}}@-moz-keyframes DropDown{0%{-moz-transform:translateY(-20px)} 100%{-moz-transform:translateY(0)}}@-o-keyframes DropDown{0%{-o-transform:translateY(-20px)} 100%{-o-transform:translateY(0)}}@keyframes DropDown{0%{transform:translateY(-20px)} 100%{transform:translateY(0)}}.DropDown{-webkit-animation-name:DropDown;-moz-animation-name:DropDown;-o-animation-name:fadeInDown;animation-name:DropDown}
 
+.smooth-transition-2s {
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+}
+
+.smooth-transition-3s {
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+}
+
+.smooth-transition-4s {
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+}
+
+.smooth-transition-5s {
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+}
+
 
 
 
@@ -1579,6 +1611,35 @@ p {
     width: 64%;
 }
 
+.page .fourth-level:first-child {
+    margin-top: 0;
+}
+
+.page .rightside, .page .leftside {
+    width: 49.5%;
+}
+
+.page .fullspan {
+	height: 320px;
+}
+
+.page .suboverlay {
+	top: 20%;
+}
+
+.page .third-level {
+    height: 320px;
+}
+
+.page .suboverlay p {
+    font-family: gothambook;
+    font-size: 18px;
+}
+
+.page .suboverlay h1 {
+    margin-bottom: 14px;
+}
+
 
 
 /* Rooms Page Styles ---------------------------------------------------- */
@@ -2142,3 +2203,8 @@ p {
     line-height: 1.2;
     margin-bottom: 5px;
 }
+
+
+
+/* Page - Amenities ---------------------------------------------------- */
+
