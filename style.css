@@ -1165,7 +1165,7 @@ p {
 	position: relative;
 }
 
-.textbox {
+.textbox, .textbox-1 {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1180,7 +1180,7 @@ p {
     -webkit-transition: all 0.4s ease-in-out;
 }
 
-.openbox {
+.openbox, .openbox-1 {
 	height: inherit;
 		transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
@@ -1200,20 +1200,20 @@ p {
 	
 }
 
-.textbox h3 {
+.textbox h3, .textbox-1 h3 {
 	font-family: 'GothamBold';
 	line-height: 22px;
 	font-size: 19px;
 	margin-bottom: 5px;
 	text-transform: uppercase;
 }
-.textbox h4 {
+.textbox h4, .textbox-1 h4 {
 	font-family: 'GothamCondensedMedium';
 	font-size: 20px;
 	margin-bottom: 5px;
 }
 
-.textbox p {
+.textbox p, .textbox-1 p {
 	font-family: 'GothamLight';
 	font-size: 14px;
 }
@@ -1228,10 +1228,10 @@ p {
 .innerbox .fa-chevron-up {
 	display: none;
 }
-.openbox .fa-chevron-down {
+.openbox .fa-chevron-down, .openbox-1 .fa-chevron-down {
 	display: none;
 }
-.openbox .fa-chevron-up {
+.openbox .fa-chevron-up, .openbox-1 .fa-chevron-up {
 	display: block;
 }
 
@@ -2206,5 +2206,54 @@ p {
 
 
 
-/* Page - Amenities ---------------------------------------------------- */
+/* Page - Full Vertical ---------------------------------------------------- */
 
+.page .contentarea.fullvertical {
+    height: 100%;
+}
+
+.page .fullvertical .third-level {
+    height: 100%;
+}
+
+.page .fullvertical .rightside, .page .fullvertical .leftside {
+	width: 50%;
+}
+
+.page .fullvertical .suboverlay {
+	transition: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+    -ms-transition: none;
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.75);
+    left: 40%;
+    max-height: 100%;
+    position: absolute;
+    width: 50%;
+    padding: 0;
+}
+
+.page .fullvertical .suboverlay p {
+    font-size: 15px;
+    line-height: 1.4;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.page .fullvertical .textbox,.page .fullvertical .textbox-1 {
+	height: 20%;
+    top: 35%;
+    transition: height 1s ease-in-out;
+    -moz-transition: height 1s ease-in-out;
+    -webkit-transition: height 1s ease-in-out;
+    -ms-transition: height 1s ease-in-out;
+}
+
+.page .fullvertical .textbox.openbox, .page .fullvertical .textbox-1.openbox-1 {
+    height: 60%;
+}
+
+.page .fullvertical .innerbox .fa {
+    left: 0;
+    width: 100%;
+}
