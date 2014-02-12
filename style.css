@@ -215,6 +215,14 @@ img.right, img.alignright {float: right;margin: 0 0 7px 15px;}
 	-ms-transition: all 0.5s ease-in-out;
 }
 
+.menu-area.right a {
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+}
+
 
 
 
@@ -2256,4 +2264,97 @@ p {
 .page .fullvertical .innerbox .fa {
     left: 0;
     width: 100%;
+}
+
+
+
+/* Single - Eat & Drink ---------------------------------------------------- */
+
+.single.eat-drink .home-intro {
+    height: 50%;
+}
+
+.single.eat-drink .wideover {
+    margin-left: -6%;
+    top: 25%;
+    width: 30%;
+}
+
+.single.eat-drink .overlay h2 {
+	font-size: 15px;
+	text-transform: none;
+}
+
+.photo-list {
+    overflow: auto;
+    background: rgba(255,255,255,0.7);
+}
+
+.photo-list li {
+    background-size: cover;
+    float: left;
+    height: 320px;
+    margin-right: 10px;
+    width: 32.7%;
+}
+
+.photo-list li:last-child {
+    margin-right: 0;
+}
+
+.single.eat-drink .page-content {
+	background: rgba(255,255,255,0.7);
+}
+
+.single.eat-drink .main-page-content.left {
+	background: transparent;
+}
+
+.main-page-content.left > h1 {
+    margin-bottom: 20px;
+}
+
+.menu-area.right {
+    padding-top: 30px;
+    width: 30%;
+}
+
+.menu-area.right h3 {
+    color: #666666;
+    font-size: 23px;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.menu-this-month {
+    background: none repeat scroll 0 0 #DCDCDC;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+
+.menu-area.right ul li a {
+    color: #111111;
+    line-height: 1.5;
+}
+	.menu-area.right ul li a:hover {
+		color: #8D3D00;
+	}
+
+.menu-area.right .menu-this-month > h3 {
+    background: none repeat scroll 0 0 #666666;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 100%;
+}
+
+.menu-this-month > ul {
+    padding: 0 15px;
+}
+
+.menu-this-month li {
+    line-height: 1.7;
+}
+
+.menu-this-month ul li strong {
+    font-weight: bold;
 }
