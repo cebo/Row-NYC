@@ -281,6 +281,11 @@ p {
 
 /* General Styles ---------------------------------------------------- */
 
+.button-wrapper {
+    position: relative;
+    text-align: center;
+}
+
 .button {
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
@@ -2357,4 +2362,50 @@ p {
 
 .menu-this-month ul li strong {
     font-weight: bold;
+}
+
+
+
+/* Single - Eat & Drink ---------------------------------------------------- */
+
+.page.group-rates .contentarea {
+    height: 100%;
+}
+
+.group-rate-wrapper {
+    height: 100%;
+}
+
+.rate-box {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+    max-height: 90%;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+    top: 25%;
+    width: 60%;
+}
+
+
+.rate-box .button-wrapper {
+    margin-bottom: 60px;
+}
+
+.group-details {
+    min-height: 100px;
+}
+
+.rate-box > h1 {
+    color: #FFFFFF;
+    font-size: 37px;
+    line-height: 1;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: none;
+}
+
+.rate-box h4 {
+    color: #FFFFFF;
+    font-size: 18px;
 }
