@@ -2388,8 +2388,9 @@ p {
 }
 
 
-.rate-box .button-wrapper {
-    margin-bottom: 60px;
+.group-details {
+    margin-bottom: 20px;
+    min-height: 100px;
 }
 
 .group-details {
@@ -2408,4 +2409,35 @@ p {
 .rate-box h4 {
     color: #FFFFFF;
     font-size: 18px;
+}
+
+.group-details li {
+    background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    height: 80px;
+    padding: 6px;
+    width: 110px;
+}
+
+.group-details li .detail-number-wrapper {
+    border: 1px solid #666666;
+    height: 100%;
+    position: relative;
+}
+
+.detail-number-wrapper input {
+    border: 0 none;
+    color: #FFA500;
+    font-size: 45px;
+    font-weight: bold;
+    position: relative;
+    text-align: center !important;
+    top: 18%;
+    width: 100% !important;
+}
+
+/* Jquery UI Spinner */
+
+.detail-number-wrapper .ui-state-default, .detail-number-wrapper .ui-widget-content .ui-state-default {
+    border: 0;
 }
