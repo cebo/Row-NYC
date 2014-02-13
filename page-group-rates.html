@@ -94,12 +94,15 @@
 
 <script type="text/javascript" src="js/jquery.js"></script>
 <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
-<link rel="stylesheet" type="text/css" href="css/ui.css">
+<!-- <link rel="stylesheet" type="text/css" href="css/ui.css"> -->
 <script type="text/javascript" src="js/jquery-ui.js"></script>
 <script type="text/javascript" src="js/ui.js"></script>
 <script type="text/javascript">
 	jQuery().ready(function($) {
-		$('#spinner').spinner({ min: -100, max: 100 });
+		$('.spinner').spinner({ 
+			min: -100, 
+			max: 100 
+		});
 	});
 </script>
 
@@ -365,14 +368,33 @@
 					<ul>
 						<li>
 							<div class="detail-number-wrapper">
-								<input maxlength="4" id="spinner" value="-4" type="text">
+								<input maxlength="2" class="spinner" value="1" type="text">
+							</div>
+						</li>
+						<li>
+							<div class="detail-number-wrapper">
+								<input maxlength="2" class="spinner" value="1" type="text">
+							</div>
+						</li>
+						<li>
+							<div class="detail-number-wrapper">
+								<input maxlength="2" class="spinner" value="1" type="text">
+							</div>
+						</li>
+						<li>
+							<div class="detail-number-wrapper">
+								<input maxlength="2" class="spinner" value="1" type="text">
 							</div>
 						</li>
 					</ul>
 					
 				</div>
+
+				<div class="clear"></div>
 	
-				<a class="button" href="">Check Your Rate</a>
+				<div class="button-wrapper"><a class="button" href="">Check Your Rate</a></div>
+
+				<div class="clear"></div>
 	
 				<h4>Et eum invenim eos prae provid eos aut occullabore laborum et, adit vollese quisciam eiciis dolupitibusa deseque simoluptate coribus ea voloreh endignisquos quiam quia que eum qui dolorercit pedicatibus del ea sandunt expeles equiae arit que is quiscipsum quae molupta nobisque nati sae prae volupisciisi cuptatem incit aboria sum qui od exerempos eium explatia que peri qui offic tem ipitia volupid quatqui dellabore necaborem dolor ma sam entoraecus ut voluptat.</h4>
 				
