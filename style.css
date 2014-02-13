@@ -2441,3 +2441,7 @@ p {
 .detail-number-wrapper .ui-state-default, .detail-number-wrapper .ui-widget-content .ui-state-default {
     border: 0;
 }
+
+.ui-state-default, .ui-widget-content .ui-state-default {
+    background: url("images/ui-bg_glass_100_f6f6f6_1x400.png") repeat-x scroll 50% 50% #666666;
+}
