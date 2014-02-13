@@ -22,9 +22,6 @@
 
 
 
-<!-- Lightbox -->	
-<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet"/>
-
 <!-- responsive style -->
 
 <link rel="stylesheet" type="text/css" href="css/media.css">
@@ -64,6 +61,23 @@
 </script>
 
 
+<!-- Lightbox -->	
+<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+<script src="js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+
+    $("a[rel^='prettyPhoto']").prettyPhoto({
+    	default_width: 800,
+    	social_tools: false,
+    	theme: 'dark_square',
+    	opacity: 0.8,
+    });
+			 	 
+  });
+</script>
+
+
 <script src="js/view.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -87,6 +101,11 @@
 			
 		});
 	</script>
+
+
+
+	<!-- Plugin CSS -->
+	<link rel="stylesheet" href="css/plugin.css" type="text/css" media="screen" title="prettyPhoto main stylesheet"/>
 
 
 
@@ -768,8 +787,26 @@
 						<li><a href="#">Press</a></li>
 						<li><a href="#">FAQs</a></li>
 						<li><a href="#">Careers</a></li>
-						<li><a href="#">Privacy</a></li>
-						<li><a href="#">Terms</a></li>
+						<li>
+							<a rel="prettyPhoto" href="#privacy">Privacy</a>
+							<div id="privacy" class="hide">
+
+								<h2>Privacy</h2>
+								
+								<p>Et eum invenim eos prae provid eos aut occullabore laborum et, adit vollese quisciam eiciis dolupitibusa deseque simoluptate coribus ea voloreh endignisquos quiam quia que eum qui dolorercit pedicatibus del ea sandunt expeles equiae arit que is quiscipsum quae molupta nobisque nati sae prae volupisciisi cuptatem incit aboria sum qui od exerempos eium explatia que peri qui offic tem ipitia volupid quatqui dellabore necaborem dolor ma sam entoraecus ut voluptat.</p>
+
+							</div>
+						</li>
+						<li>
+							<a rel="prettyPhoto" href="#terms">Terms</a>
+							<div id="terms" class="hide">
+
+								<h2>Terms & Conditions</h2>
+								
+								<p>Et eum invenim eos prae provid eos aut occullabore laborum et, adit vollese quisciam eiciis dolupitibusa deseque simoluptate coribus ea voloreh endignisquos quiam quia que eum qui dolorercit pedicatibus del ea sandunt expeles equiae arit que is quiscipsum quae molupta nobisque nati sae prae volupisciisi cuptatem incit aboria sum qui od exerempos eium explatia que peri qui offic tem ipitia volupid quatqui dellabore necaborem dolor ma sam entoraecus ut voluptat.</p>
+
+							</div>
+						</li>
 					</ul>
 				
 				</div>
