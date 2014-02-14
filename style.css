@@ -233,7 +233,8 @@ img.right, img.alignright {float: right;margin: 0 0 7px 15px;}
 .detail-number-wrapper .ui-state-default .ui-icon,
 .detail-number-wrapper .ui-state-default .ui-icon:after,
 .detail-number-wrapper .ui-state-default,
-.subway-buttons li a
+.subway-buttons li a,
+.deal-more-detail a h3
 {
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
@@ -1667,6 +1668,11 @@ p {
 	height: auto;
 }
 
+.single .page-content.alt-page-content {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 30px;
+}
+
 
 
 /* General Page Styles ---------------------------------------------------- */
@@ -2746,4 +2752,35 @@ p {
 
 .deal-wrapper > p {
     padding-bottom: 10px;
+}
+
+
+
+/* Single - Deal ---------------------------------------------------- */
+
+.deal-more-detail {
+    margin-top: 30px;
+}
+
+.deal-more-detail ul li {
+    float: left;
+    width: 49%;
+}
+
+.deal-more-detail ul li ul {
+	padding-left: 30px;
+}
+
+.deal-more-detail ul li li {
+    color: #2E2D2D;
+    float: none;
+    font-family: gothamlight;
+    font-size: 14px;
+    line-height: 1.6;
+    list-style: disc outside none;
+    width: auto;
+}
+
+.deal-more-detail a h3:hover {
+    color: #FA9C03;
 }
