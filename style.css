@@ -2164,7 +2164,7 @@ p {
     margin-left: 10px;
     overflow: hidden;
     position: relative;
-    width: 55%;
+    width: 530px;
 }
 
 .concierge-box .right {
@@ -2195,9 +2195,9 @@ p {
 }
 
 .concierge-box .wideover.overlay {
-    left: 25%;
+    left: 20%;
     margin-left: 0;
-    width: 40%;
+    width: 50%;
 }
 
 .concierge-box .wideover.overlay h1 {
@@ -2266,12 +2266,12 @@ p {
 }
 
 .concierge-box.box-style-4 .right {
-    padding: 9px 50px;
+    padding: 10px 45px;
 }
 
 .concierge-box.box-style-4 .right p {
-    font-size: 14px;
-    line-height: 1.2;
+    font-size: 13px;
+    line-height: 1.25;
     margin-bottom: 5px;
 }
 
@@ -2628,4 +2628,62 @@ p {
 .subway-buttons li:nth-child(11) a {
 	background-color: #333;
 	color: #fff;
+}
+
+
+
+/* Single - Amenity ---------------------------------------------------- */
+
+.text-content.left {
+	width: 100%;
+}
+
+.amenity-features {
+    border-bottom: 1px solid #333333;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+.amenity-logo {
+    margin-bottom: 20px;
+}
+
+.amenity-features > ul {
+    float: left;
+    margin-right: 10px;
+    width: 31%;
+}
+
+.amenity-features li {
+    font-family: gothambook;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.7;
+}
+
+.amenity-contact > div {
+    float: left;
+    margin-right: 20px;
+    width: 270px;
+}
+
+.amenity-contact div:nth-child(3) {
+    clear: left;
+}
+
+/* Amenity Featured images */
+
+.amenity-featured-images.right {
+    display: block;
+    height: 100%;
+    position: relative;
+    width: 350px;
+}
+
+.amenity-featured-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 330px;
+    margin-bottom: 10px;
+    width: 100%;
 }
