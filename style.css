@@ -229,7 +229,8 @@ img.right, img.alignright {float: right;margin: 0 0 7px 15px;}
 
 .detail-number-wrapper .ui-state-default .ui-icon,
 .detail-number-wrapper .ui-state-default .ui-icon:after,
-.detail-number-wrapper .ui-state-default
+.detail-number-wrapper .ui-state-default,
+.subway-buttons li a
 {
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
@@ -939,7 +940,43 @@ p {
     top: 0;
 }
 
+/* Text Content */
 
+.text-content.right {
+    width: 60%;
+}
+
+.text-content h4, .main-page-content h4 {
+    font-size: 20px;
+    line-height: 1;
+    text-transform: none;
+}
+
+.text-content h3 {
+	color: #999;
+	font-size: 25px;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+
+.text-content p {
+	font-family: gothambook;
+}
+
+/* Content map */
+
+.maparea.left {
+    height: 480px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+/* Left Content */
+
+.page .main-page-content.inverted-location.left {
+    padding: 0;
+    width: 38%;
+}
 
 
 
@@ -2537,4 +2574,58 @@ p {
 .detail-number-wrapper .ui-state-default.ui-corner-br .ui-icon:after {
     content: "\f078";
     top: -2px;
+}
+
+
+
+/* Page - Contact ---------------------------------------------------- */
+
+.page.contact .page-content {
+	padding-top: 25px;
+}
+
+.subway-buttons li {
+    float: left;
+    margin-right: 5px;
+}
+
+.subway-buttons li a {
+    background: none repeat scroll 0 0 #CCCCCC;
+    border-radius: 30px;
+    display: inline-block;
+    height: 21px;
+    padding: 1px 0 0;
+    text-align: center;
+    width: 22px;
+    color: #000
+}
+	.subway-buttons li a:hover {
+		background-color: #ee3a43 !important;
+	}
+
+.subway-buttons li:nth-child(1) a,
+.subway-buttons li:nth-child(2) a,
+.subway-buttons li:nth-child(3) a,
+.subway-buttons li:nth-child(12) a,
+.subway-buttons li:nth-child(13) a,
+.subway-buttons li:nth-child(14) a,
+.subway-buttons li:nth-child(15) a
+{
+	background-color: #999;
+}
+
+.subway-buttons li:nth-child(6) a,
+.subway-buttons li:nth-child(7) a,
+.subway-buttons li:nth-child(8) a {
+	background-color: none repeat scroll 0 0 #666;
+	color: #000;
+}
+
+.subway-buttons li:nth-child(4) a,
+.subway-buttons li:nth-child(5) a,
+.subway-buttons li:nth-child(9) a,
+.subway-buttons li:nth-child(10) a,
+.subway-buttons li:nth-child(11) a {
+	background-color: #333;
+	color: #fff;
 }
