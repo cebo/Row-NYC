@@ -83,6 +83,9 @@ p {
 a {
 	color: #8d3d00;
 }
+	a:hover {
+	    color: #FA9C03;
+	}
 
 article blockquote {
 	border-left: 1px solid #ebe0b5;
@@ -315,6 +318,8 @@ p {
     color: #FFFFFF;
     padding: 10px 20px;
     text-transform: uppercase;
+    display: inline-block;
+    cursor: pointer;
 }
 	.button:hover {
 		color: #000;
@@ -1674,7 +1679,13 @@ p {
 }
 
 .page .page-content {
-	padding: 15px;
+	padding: 30px;
+}
+
+.page-content > h1 {
+    font-size: 35px;
+    font-weight: normal;
+    margin-bottom: 20px;
 }
 
 .page .main-page-content.left {
@@ -1709,6 +1720,15 @@ p {
 
 .page .suboverlay h1 {
     margin-bottom: 14px;
+}
+
+.wonder-vertical {
+    border-right: 1px solid #eee;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0;
 }
 
 
@@ -2686,4 +2706,44 @@ p {
     height: 330px;
     margin-bottom: 10px;
     width: 100%;
+}
+
+
+
+/* Page - Deals ---------------------------------------------------- */
+
+.deal-boxes {
+    background: none repeat scroll 0 0 #FFFFFF;
+    overflow: auto;
+    padding-bottom: 0;
+}
+
+.deal {
+    float: left;
+    width: 50%;
+}
+
+.deal-photo {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+    width: 100%;
+}
+
+.deal-wrapper {
+    height: 100%;
+    padding: 20px 60px 30px;
+    position: relative;
+    text-align: center;
+}
+
+.deal-wrapper > h1 {
+    font-size: 35px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.deal-wrapper > p {
+    padding-bottom: 10px;
 }
