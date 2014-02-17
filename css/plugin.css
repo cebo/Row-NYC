@@ -12,6 +12,10 @@
     height: 500px;
 }
 
+.flexslider .slides img {
+    height: 100%;
+}
+
 
 
 /* Prettyphoto ---------------------------------------------------- */

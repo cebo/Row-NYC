@@ -2054,13 +2054,13 @@ p {
 
 .page.time-square .textbox {
     background: none repeat scroll 0 0 rgba(255, 255, 255, 0.7);
-    bottom: 205px;
-    left: 300px;
+    bottom: 0;
+    height: 140px;
+    left: 0;
     position: absolute;
     top: auto;
     width: 50%;
     z-index: 1;
-    height: 140px;
 }
 
 .page.time-square .innerbox {
@@ -2338,6 +2338,10 @@ p {
     padding: 0;
 }
 
+.page .fullvertical .innerbox {
+	padding-top: 30px;
+}
+
 .page .fullvertical .suboverlay p {
     font-size: 15px;
     line-height: 1.4;
@@ -2346,7 +2350,7 @@ p {
 }
 
 .page .fullvertical .textbox,.page .fullvertical .textbox-1 {
-	height: 20%;
+	min-height: 20%;
     top: 35%;
     transition: height 1s ease-in-out;
     -moz-transition: height 1s ease-in-out;
@@ -2360,6 +2364,7 @@ p {
 
 .page .fullvertical .innerbox .fa {
     left: 0;
+    top: 10px;
     width: 100%;
 }
 
@@ -2620,6 +2625,7 @@ p {
 
 .subway-buttons li {
     float: left;
+    margin-bottom: 5px;
     margin-right: 5px;
 }
 
@@ -2668,7 +2674,7 @@ p {
 
 /* Single - Amenity ---------------------------------------------------- */
 
-.text-content.left {
+.text-content.no-content-sidebar.left {
 	width: 100%;
 }
 
