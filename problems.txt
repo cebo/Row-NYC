@@ -1,8 +1,7 @@
 page with problems
 
-http://localhost/rownyc.com/united/upcoming-events.html
-http://localhost/rownyc.com/united/time-square.html
-http://localhost/rownyc.com/united/single-event.html
+Mobile:
 http://localhost/rownyc.com/united/single-eat-drink.html
 http://localhost/rownyc.com/united/page-eat-drink.html
 http://localhost/rownyc.com/united/master-suite.html
+http://localhost/rownyc.com/united/time-square.html
