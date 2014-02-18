@@ -71,3 +71,16 @@ div.dark_square .pp_details {
     top: 0;
 }
 
+
+
+/* Scrollbar ---------------------------------------------------- */
+
+.jspVerticalBar {
+    z-index: 99;
+    opacity: .7;
+    width: 9px;
+}
+
+.jspDrag {
+    background: rgba(0,0,0,.6);
+}

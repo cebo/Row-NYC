@@ -12,8 +12,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="stylesheet" type="text/css" href="style.css">
 
-<script src="js/modernizr-2.5.3.min.js"></script>
-
 <!-- fonts style -->
 
 <link rel="stylesheet" type="text/css" href="css/fonts.css">
@@ -22,11 +20,24 @@
 
 
 
+<!-- Plugin CSS -->
+<link rel="stylesheet" type="text/css" href="css/jscrollpane.css">
+
+
+
 <!-- responsive style -->
 
 <link rel="stylesheet" type="text/css" href="css/media.css">
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+<!-- the mousewheel plugin -->
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<!-- the jScrollPane script -->
+<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="js/scroll-startstop.events.jquery.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+
 <script type="text/javascript">
 	
 	$(document).ready(function() {
@@ -55,8 +66,7 @@
 			})
 			});
 		 				
-	});
-	
+	});	
 	
 </script>
 
@@ -156,7 +166,7 @@
 			<li class="subinside">
 				<a href="/rownyc.com/united/rooms.html"><span class="rooms"></span><p>Rooms</p></a>
 				
-					<ul class="dropbox">
+					<ul id="dropbox" class="dropbox">
 					
 						<li class="drop-intro">
 							

@@ -423,12 +423,8 @@ p {
 	border-top:  2px solid #373637;
 }
 
-.navigate.slipnot .supernav .subinside {
-    background: none repeat scroll 0 0 #DFDFDF;
-}
-
 .navigate .supernav li:hover {
-	background: none repeat scroll 0 0 rgba(255,255,255,.6);
+	background: none repeat scroll 0 0 #DFDFDF;
 	z-index: 999;
 }
 
@@ -439,7 +435,7 @@ p {
 	transition: all 0.4s ease-in-out;
 }
 .navigate .supernav li.dropsub:hover {
-	background: #fff;
+	background: none repeat scroll 0 0 #DFDFDF;
 	z-index: 999;
 	height: 250px;
 }
@@ -889,8 +885,11 @@ p {
 }
 
 .topnav a:last-child {
-	width: 36%;
+	float: none;
+    overflow: hidden;
+    width: auto;
 }
+
 .topnav a i {
 	margin: 0 15px 0 0;
 	position: relative;
@@ -1841,6 +1840,7 @@ p {
 
 .room-details {
 	width: 100%;
+	overflow: hidden;
 }
 
 .room-details li.room-detail {
@@ -1850,7 +1850,10 @@ p {
 }
 
 .room-details li.room-detail:last-child {
+    float: none;
     margin-right: 0;
+    overflow: hidden;
+    width: auto;
 }
 
 .room-details-content {
