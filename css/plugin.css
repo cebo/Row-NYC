@@ -84,3 +84,15 @@ div.dark_square .pp_details {
 .jspDrag {
     background: rgba(0,0,0,.6);
 }
+
+
+
+/* Spinner ---------------------------------------------------- */
+
+.topnav a.ui-spinner-button {
+    display: block;
+    float: none;
+    height: auto;
+    padding: 0;
+    width: auto;
+}

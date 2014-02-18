@@ -1,6 +1,10 @@
 // Jscrollpane ////////////////////////////////////////////////////////////
 
 $(function() {
+
+	// Jquery UI spinner
+
+	$( ".spinner" ).spinner();
 				
 	// the element we want to apply the jScrollPane
 	var $el					= $('.dropbox').jScrollPane({
@@ -144,5 +148,9 @@ $(function() {
 	// extend the jScollPane by merging	
 	$.extend( true, jspapi, extensionPlugin );
 	jspapi.addHoverFunc();
+
+
+
+	
 
 });

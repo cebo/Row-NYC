@@ -920,7 +920,7 @@ p {
 	font-size: 15px;
 }
 
-.dropout {
+/*.dropout {
 	position: absolute;
 	right:  0px;
 	z-index: 99999999;
@@ -930,6 +930,21 @@ p {
 	width: 450px;
 	opacity: 0;
 	visibility: hidden;
+	transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+}*/
+
+.dropout {
+	position: absolute;
+	right:  0px;
+	z-index: 99999999;
+	top: 56px;
+	background: rgba(0,0,0,.5);
+	min-height: 600px;
+	width: 450px;
+	opacity: 1;
+	visibility: visible;
 	transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
@@ -1007,6 +1022,47 @@ p {
 .page .main-page-content.inverted-location.left {
     padding: 0;
     width: 38%;
+}
+
+
+
+
+
+
+
+
+/* Booking Styles ---------------------------------------------------- */
+
+.calsec {
+    display: block;
+    float: left;
+    height: auto;
+    margin: 10px;
+    width: 46%;
+}
+
+.calsec input {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 0 none;
+    color: #666666;
+    padding: 5px 3px;
+}
+
+.topnav .calsec .fa-calendar:before {
+    position: relative;
+    top: 2px;
+}
+
+.topnav .calsec i:after {
+    border: 0 none;
+    position: absolute;
+}
+
+.topnav .calsec i {
+    background: none repeat scroll 0 0 #FA9C03;
+    left: -3px;
+    margin: 0;
+    padding: 4px 9px 7px;
 }
 
 
