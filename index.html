@@ -347,52 +347,64 @@
 	
 	<div class="topnav">
 			
-		<a href="#"><i class="fa fa-calendar"></i><span class="book">Book</span>
-			
-			<div class="dropout">
+		<ul>
 
-				<div class="inner">
-					
-					<form action="https://secure3.hilton.com/en_US/HI/reservation/book.htm" target="_blank">
-						<input type="hidden" name="ctyhocn" value="MIAMBHF">
-						<span class="calsec">
-							<input type="text"  id="arrival_date" placeholder="" class="calendarsection" />
-							<input type="hidden" name="arrival" id="arv">
-							<i class="fa fa-calendar"></i>
-						</span>
+			<li>
+
+				<a href="#"><i class="fa fa-calendar"></i><span class="book">Book</span></a>
 						
-						<span class="calsec">
-							<input type="text" id="departure_date" placeholder="" class="calendarsection" />
-							<input name="departure" type="hidden" id="dep">
-							<i class="fa fa-calendar"></i>
-						</span>
+				<div class="dropout">
+
+					<div class="inner">
 						
-						<span class="dropsec" style="margin-right: 6px">
-							<input type="text" id="adultscount" placeholder="" class="spinner" />
-							<i class="fa fa-angle-down"></i>
-						</span>
-						
-						<span class="dropsec">
-							<select name="numChildren" class="halfsies">
-								<option value=""><?php _e('0 Kids','cebolang'); ?></option>
-								<option value="1"><?php _e('1 Kid','cebolang'); ?></option>
-								<option value="2"><?php _e('2 Kids','cebolang'); ?></option>
-								<option value="3"><?php _e('3 Kids','cebolang'); ?></option>
-							</select>
-							<i class="fa fa-angle-down"></i>
-						</span>
-						
-						<button class="button" type="submit"><?php _e('Search Now','cebolang'); ?></button>
-				</div>			
+						<form action="#" target="_blank">
+
+							<input type="hidden" name="ctyhocn" value="MIAMBHF">
+							<span class="calsec">
+								<input type="text"  id="arrival_date" placeholder="" class="calendarsection" />
+								<input type="hidden" name="arrival" id="arv">
+								<i class="fa fa-calendar"></i>
+							</span>
+							
+							<span class="calsec">
+								<input type="text" id="departure_date" placeholder="" class="calendarsection" />
+								<input name="departure" type="hidden" id="dep">
+								<i class="fa fa-calendar"></i>
+							</span>
+							
+							<span class="calsec">
+								<input type="text" id="adultscount" placeholder="" class="spinner" />
+							</span>
+							
+							<span class="calsec">
+								<input type="text" id="childcount" placeholder="" class="spinner" />
+							</span>
+							
+							<span class="calsec check-availability">
+								<button class="button" type="submit">Check Availability</button>
+							</span>
+
+							<span class="calsec">
+								<a href="#">Need A Group Rate?</a>
+							</span>
+
+							<span class="calsec">
+								<a href="#">Special Offers</a>
+							</span>
+
+						</form>
+							
+					</div>			
+				
+				</div>
+
+			</li>
 			
-			</div>
-		
-		
-		</a>
-		
-		<a href="#"><i class="fa fa-map-marker"></i><span class="locale">Location</span></a>
-		
-		<a href="#"><i class="fa  fa-envelope"></i><span class="offer">Exclusive Offers</span></a>
+			<li><a href="#"><i class="fa fa-map-marker"></i><span class="locale">Location</span></a></li>
+			
+			<li><a href="#"><i class="fa  fa-envelope"></i><span class="offer">Exclusive Offers</span></a></li>
+
+		</ul>
 		
 	</div>
 	

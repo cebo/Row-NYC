@@ -5,6 +5,8 @@ $(function() {
 	// Jquery UI spinner
 
 	$( ".spinner" ).spinner();
+	$('.ui-spinner-up .ui-button-text').html('<span class="ui-icon ui-icon-triangle-1-n fa fa-angle-up"></span>');
+	$('.ui-spinner-down .ui-button-text').html('<span class="ui-icon ui-icon-triangle-1-n fa fa-angle-down"></span>');
 				
 	// the element we want to apply the jScrollPane
 	var $el					= $('.dropbox').jScrollPane({

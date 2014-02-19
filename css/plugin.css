@@ -90,9 +90,58 @@ div.dark_square .pp_details {
 /* Spinner ---------------------------------------------------- */
 
 .topnav a.ui-spinner-button {
+    background: none repeat scroll 0 0 #FA9C03;
     display: block;
     float: none;
-    height: auto;
+    height: 13px;
     padding: 0;
     width: auto;
+    width: 32px;
 }
+    .topnav a.ui-spinner-button:hover span span {
+        color: #000000;
+    }
+
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+    border-radius: 0;   
+}
+
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+    border-top-right-radius: 0;
+}
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    border-bottom-right-radius: 0;
+    border: 0;
+}
+
+.ui-state-default .ui-icon {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    background: none transparent;
+    border: 0;
+}
+
+.ui-button-text-only .ui-button-text {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    display: block;
+    left: 7px;
+    padding: 0.6em 0.8em;
+    position: relative;
+}
+    .ui-button-text-only .ui-button-text:hover {
+        opacity: 0.7;
+    }
