@@ -314,19 +314,82 @@
 	
 	<div class="topnav">
 			
-		<a href="#"><i class="fa fa-calendar"></i><span class="book">Book</span>
+		<ul>
+
+			<li>
+
+				<a class="booking-link" href="#"><i class="fa fa-calendar"></i><span class="book">Book</span></a>
+						
+				<div class="dropout">
+
+					<div class="inner">
+						
+						<form action="#" target="_blank">
+
+							<input type="hidden" name="ctyhocn" value="MIAMBHF">
+							<span class="calsec">
+								<input type="text"  id="arrival_date" placeholder="" class="calendarsection" />
+								<input type="hidden" name="arrival" id="arv">
+								<i class="fa fa-calendar"></i>
+								<label>Arrive</label>
+							</span>
+							
+							<span class="calsec">
+								<input type="text" id="departure_date" placeholder="" class="calendarsection" />
+								<input name="departure" type="hidden" id="dep">
+								<i class="fa fa-calendar"></i>
+								<label>Depart</label>
+							</span>
+							
+							<span class="calsec">
+								<input type="text" id="adultscount" placeholder="" class="spinner" value="1" />
+								<label>Adults</label>
+							</span>
+							
+							<span class="calsec">
+								<input type="text" id="childcount" placeholder="" class="spinner" value="0" />
+								<label>Children</label>
+							</span>
+
+							<span class="calsec">
+								<select type="text" id="promocodetype" placeholder="">
+									<option selected="selected">Group Rate</option>
+									<option>50% Discount</option>
+									<option>20% Discount</option>
+								</select>
+								<label>Code Type</label>
+							</span>
+
+							<span class="calsec">
+								<input type="text" id="promocode" placeholder="Enter your code here" class="plain-input" />
+								<label>Code</label>
+							</span>
+							
+							<span class="calsec check-availability">
+								<button class="button" type="submit">Check Availability</button>
+							</span>
+
+							<span class="calsec">
+								<a href="#">Need A Group Rate?</a>
+							</span>
+
+							<span class="calsec">
+								<a href="#">Special Offers</a>
+							</span>
+
+						</form>
+							
+					</div>			
+				
+				</div>
+
+			</li>
 			
-			<div class="dropout">
+			<li><a class="booking-link" href="#"><i class="fa fa-map-marker"></i><span class="locale">Location</span></a></li>
 			
-			
-			</div>
-		
-		
-		</a>
-		
-		<a href="#"><i class="fa fa-map-marker"></i><span class="locale">Location</span></a>
-		
-		<a href="#"><i class="fa  fa-envelope"></i><span class="offer">Exclusive Offers</span></a>
+			<li><a class="booking-link" href="#"><i class="fa  fa-envelope"></i><span class="offer">Exclusive Offers</span></a></li>
+
+		</ul>
 		
 	</div>
 	
