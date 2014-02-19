@@ -929,10 +929,19 @@ p {
     width: auto;
 }
 
+.topnav li:last-child a {
+    padding-bottom: 8px;
+}
+
 .topnav a i {
 	margin: 0 15px 0 0;
 	position: relative;
 	font-size: 15px;
+}
+
+.topnav a i.fa-envelope {
+    left: -10px;
+    margin-right: 4px;
 }
 
 /*.dropout {
@@ -2592,7 +2601,10 @@ p {
 }
 
 .photo-list li:last-child {
+    float: none;
     margin-right: 0;
+    overflow: hidden;
+    width: auto;
 }
 
 .single.eat-drink .page-content {
