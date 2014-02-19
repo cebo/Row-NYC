@@ -138,9 +138,10 @@ div.dark_square .pp_details {
     -ms-transition: all 0.4s ease-in-out;
     cursor: pointer;
     display: block;
-    left: 7px;
+    left: 8px;
     padding: 0.6em 0.8em;
     position: relative;
+    top: -1px;
 }
     .ui-button-text-only .ui-button-text:hover {
         opacity: 0.7;

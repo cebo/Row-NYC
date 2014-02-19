@@ -247,7 +247,8 @@ img.right, img.alignright {float: right;margin: 0 0 7px 15px;}
 
 /* .4s transitions */
 
-.topnav a i
+.topnav .calsec i,
+.topnav .calsec > a
 {
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
@@ -890,35 +891,39 @@ p {
 	z-index: 2147483647;
 }
 
-
-.topnav a {
-	font-family: 'GothamLight';
-	line-height: 12px;
-	letter-spacing: 0px;
-	color: #fff;
-	font-weight: 400;
-	font-size: 12px;
-	text-align: center;
+.topnav li {
 	-webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
-	text-transform: uppercase;
-	transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
-    width: 33%;
-    
+    color: #FFFFFF;
     display: block;
     float: left;
-    height: 16px;
-    	padding: 20px 0 20px 0;
-}    
+    font-family: 'GothamLight';
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out 0s;
+    width: 33%;
+}
 
-.topnav a:first-child {
+.topnav li a.booking-link {
+    color: #FFFFFF;
+    display: block;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.topnav li:first-child {
 	width: 28%;
 }
 
-.topnav a:last-child {
+.topnav li:last-child {
 	float: none;
     overflow: hidden;
     width: auto;
@@ -951,20 +956,25 @@ p {
     -webkit-transition: all 0.4s ease-in-out;
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
     height: auto;
-    opacity: 1;
+    opacity: 0;
     padding-bottom: 10px;
     position: absolute;
     right: 0;
-    top: 56px;
-    visibility: visible;
+    top: 46px;
+    visibility: hidden;
     width: 450px;
     z-index: 99999999;
 }
 
-.topnav a:hover .dropout {
+.topnav > ul {
+    height: 55px;
+    padding-bottom: 0;
+}
+
+.topnav li:hover .dropout {
 	opacity: 1;
 	visibility: visible;
-	top: 56px;
+	top: 55px;
 }
 .topnav a:hover {
  	background: #fa9c03;
@@ -982,7 +992,7 @@ p {
 	content: '';
 }
 
-.topnav a i.fa-map-marker:after {
+.topnav li i.fa-map-marker:after {
 	top: -8px;
 	left: -12px;
 }
@@ -1049,7 +1059,7 @@ p {
 /* Booking Styles ---------------------------------------------------- */
 
 .dropout .inner form {
-    overflow: auto;
+    overflow: hidden;
 }
 
 .calsec {
@@ -1061,12 +1071,43 @@ p {
     width: 44%;
 }
 
+.calsec.check-availability {
+    clear: both;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+.topnav .calsec > a {
+    display: block;
+    font-family: gothambook;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+    width: 54%;
+    color: #FFFFFF;
+}
+	.topnav .calsec > a:hover {
+	    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	    color: #FA9C03;
+	}
+
 .calsec input {
     background: none repeat scroll 0 0 #FFFFFF;
     border: 0 none;
     color: #666666;
     padding: 5px 3px;
     width: 153px;
+}
+
+.calsec label {
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: normal;
+    display: block;
+    margin-top: 3px;
 }
 
 .topnav .calsec .fa-calendar:before {
@@ -1081,10 +1122,16 @@ p {
 
 .topnav .calsec i {
     background: none repeat scroll 0 0 #FA9C03;
-    left: -4px;
+    color: #FFFFFF;
+    left: -3px;
     margin: 0;
-    padding: 4px 9px 7px;
+    padding: 6px 9px 8px;
+    position: relative;
+    cursor: pointer;
 }
+	.topnav .calsec i:hover {
+		color: #000;
+	}
 
 .calsec .ui-widget input {
     border-radius: 0;
@@ -1095,6 +1142,7 @@ p {
     padding: 5px 3px;
     position: relative;
     width: 100%;
+    font-size: 13px;
 }
 
 .ui-state-default .ui-icon.fa-angle-down:before, .ui-state-default .ui-icon.fa-angle-up:before {
@@ -1106,7 +1154,20 @@ p {
 .calsec .ui-spinner {
     background: none repeat scroll 0 0 #CCCCCC;
     text-align: left;
-    width: 190px;
+    width: 192px;
+}
+
+.calsec select {
+    border: 0 none;
+    border-radius: 0;
+    font-size: 13px;
+    padding: 4px 3px;
+    text-transform: none;
+    width: 192px;
+}
+
+.calsec .plain-input {
+    width: 186px;
 }
 
 
