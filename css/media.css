@@ -35,10 +35,10 @@ and (max-width : 1439px) {
 
 
 
-/* ================================================  MAX WIDTH 1439px ======================================= */
+/* ================================================ 1024 ======================================= */
 
 @media only screen 
-and (max-width : 1024px) {
+and (max-width : 1279px) {
 
 
 
@@ -463,6 +463,130 @@ and (max-width : 1024px) {
 	    max-height: 219px;
 	    min-height: 219px;
 	    width: 100%;
+	}
+
+
+
+}
+
+
+
+/* ================================================ 768 ======================================= */
+
+@media only screen 
+and (max-width : 900px) {
+
+
+
+	/* Header */
+
+	.banner p a:before {
+	    content: "- ";
+	}
+
+	.banner p a {
+		margin-left: 0;
+	}
+
+	.banner p {
+	    padding: 5px 4% 5px 0;
+	    width: 45%;
+	}
+
+	.topnav {
+	    max-width: 356px;
+	    top: 52px;
+	    width: 50%;
+	}
+
+	.fixed {
+	    position: fixed;
+	    top: 0;
+	}
+
+
+
+	/* Footer */
+
+	.tier-one {
+	    padding: 10px;
+	    width: auto;
+	    height: auto;
+	}
+
+	.tier-one ul {
+	    display: block;
+	    overflow: auto;
+	    table-layout: fixed;
+	    text-align: center;
+	    width: auto;
+	}
+
+	.tier-one ul li {
+	    display: block;
+	    float: left;
+	    list-style: none outside none;
+	    margin-right: 10px;
+	    text-align: left;
+	}
+
+	.tier-two {
+		padding: 10px 0;
+	}
+
+	.tier-two ul {
+	    text-align: center;
+	}
+
+	.tier-two ul li {
+	    display: inline-block;
+	    float: none;
+	    text-align: center;
+	    width: 100%;
+	    padding: 0;
+	}
+
+	.tier-two ul li.widest {
+	    width: 100%;
+	}
+
+
+
+
+	/* Homepage content */
+
+	.leftside, .rightside {
+		width: 100%;
+	}
+
+	.third-level {
+		overflow: auto;
+	}
+
+	.fourth-level {
+		clear: both;
+	}
+
+	.shorter {
+	    height: 310px;
+	    margin-bottom: 10px;
+	    overflow: hidden;
+	}
+
+	.bigover h1 {
+	    font-size: 45px;
+	    line-height: 1.1;
+	    padding: 10px;
+	}
+
+	.blogposts {
+		-moz-column-count: 2;
+	    -webkit-column-count: 2;
+	    column-count: 2;
+	}
+
+	.third-level .picone {
+		margin-bottom: 0;
 	}
 
 
