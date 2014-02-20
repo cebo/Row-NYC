@@ -115,6 +115,24 @@ and (max-width : 1024px) {
 		padding: 15px;
 	}
 
+	.text-content.left > h1 {
+	    font-size: 33px;
+	    line-height: 1;
+	    margin-bottom: 20px;
+	}
+
+	.text-content.left > p {
+	    font-size: 13px;
+	}
+
+	.text-content.left {
+	    width: 67%;
+	}
+
+	.extra-details.right {
+	    width: 27%;
+	}
+
 
 
 	/* Side Navigation */
@@ -343,6 +361,24 @@ and (max-width : 1024px) {
 
 	.box-style-4 a {
 	    font-size: 14px;
+	}
+
+
+
+	/* Single - Amenity */
+
+	.amenity-features li {
+	    font-size: 12px;
+	}
+
+	.amenity-featured-images.right {
+	    float: none;
+	    overflow: hidden;
+	    width: auto;
+	}
+
+	.amenity-contact > div {
+	    width: 190px;
 	}
 
 
