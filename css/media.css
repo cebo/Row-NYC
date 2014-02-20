@@ -98,6 +98,15 @@ and (max-width : 1024px) {
 	    font-size: 12px;
 	}
 
+	.littleover > h1 {
+	    font-size: 18px;
+	    line-height: 1.1;
+	}
+
+	.littleover p {
+	    line-height: 1.2;
+	}
+
 
 
 	/* GENERAL - Generic Page Settings */
@@ -214,6 +223,10 @@ and (max-width : 1024px) {
 
 	.tier-two ul li {
 		width: 30%;
+	}
+
+	.tier-two li a {
+		font-size: 13px;
 	}
 
 	.tier-two li span {
@@ -379,6 +392,47 @@ and (max-width : 1024px) {
 
 	.amenity-contact > div {
 	    width: 190px;
+	}
+
+
+
+	/* SINGLE - Deal */
+
+	.deal-more-detail ul li {
+	    padding-right: 10px;
+	    width: 47%;
+	}
+
+	.deal-more-detail ul li li {
+	    font-size: 13px;
+	}
+
+
+
+	/* SINGLE - Eat & Drink */
+
+	.photo-list li {
+	    margin-right: 0;
+	}
+
+	.main-page-content.left > h1 {
+	    margin-bottom: 15px;
+	}
+
+	.menu-area.right h3 {
+	    font-size: 20px;
+	    margin-bottom: 15px;
+	}
+
+	.menu-this-month li {
+	    font-size: 13px;
+	    line-height: 1.7;
+	    margin-bottom: 5px;
+	}
+
+		.menu-area.right ul li a {
+	    font-size: 14px;
+	    line-height: 1.5;
 	}
 
 
