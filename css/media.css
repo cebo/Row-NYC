@@ -50,6 +50,8 @@ and (max-width : 1024px) {
 	}
 
 	h2 {
+		font-size: 20px;
+		line-height: 1.2;
 	}
 
 	h3 {
@@ -103,6 +105,10 @@ and (max-width : 1024px) {
 	    line-height: 1.1;
 	}
 
+	.littleover > h2 {
+	    line-height: 1.1;
+	}
+
 	.littleover p {
 	    line-height: 1.2;
 	}
@@ -140,6 +146,15 @@ and (max-width : 1024px) {
 
 	.extra-details.right {
 	    width: 27%;
+	}
+
+	.page-intro > h1 {
+	    font-size: 30px;
+	    margin-bottom: 10px;
+	}
+
+	.page-intro h4.sub-line {
+	    font-size: 18px;
 	}
 
 
