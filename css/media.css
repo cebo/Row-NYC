@@ -44,6 +44,26 @@ and (max-width : 1024px) {
 
 	/* FONT SIZES - Home & General */
 
+	h1 {
+		font-size: 25px;
+		line-height: 1.2;
+	}
+
+	h2 {
+	}
+
+	h3 {
+		font-size: 16px;
+		line-height: 1.2;
+	}
+
+	h4 {
+		font-size: 17px;
+	}
+
+	h5 {
+	}
+
 	.overlay h1 {
 		font-size: 25px;
 	}
@@ -73,6 +93,10 @@ and (max-width : 1024px) {
 	.textbox p, .textbox-1 p {
 	    font-size: 12px;
 	}
+
+	/* FONT SIZES - Amenities */
+
+
 
 	/* Side Navigation */
 
@@ -167,6 +191,88 @@ and (max-width : 1024px) {
 	.footer .tier-two {
 	    height: auto;
 	    overflow: auto;
+	}
+
+
+
+	/* PAGE - General settings */
+
+	.page .suboverlay {
+	    top: 15%;
+	}
+
+	.page .suboverlay p {
+	    font-size: 13px;
+	}
+
+
+
+	/* SINGLE - General settings */
+
+
+
+	/* PAGE - Amenities */
+
+	.page .suboverlay h1 {
+	    margin-bottom: 7px;
+	}
+
+
+
+	/* PAGE - Group Rates */
+
+	.rate-box {
+		top: 20%;
+	}
+
+	.rate-box > h1 {
+	    font-size: 28px;
+	}
+
+	.group-details > ul {
+		padding-bottom: 0;
+	}
+
+	.group-details li {
+	    margin: 0 12px 30px;
+	}
+
+	.group-details {
+	    margin-bottom: 0;
+	}
+
+	.rate-box h4 {
+	    font-size: 14px;
+	    margin-top: 20px;
+	}
+
+
+
+	/* PAGE - Events */
+
+	.page.events .suboverlay h1 {
+	    font-size: 23px;
+	    line-height: 1.2;
+	}
+
+	.slide-bottom-title > h1 {
+	    line-height: 1.5;
+	}
+
+	.event-small-details span {
+	    font-size: 10px;
+	}
+
+	.the-events li:first-child {
+	    font-size: 16px;
+	}
+
+	.the-events h2 {
+	    font-size: 18px;
+	}
+
+	.the-events span {
+	    line-height: 2;
 	}
 
 
