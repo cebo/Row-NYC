@@ -33,6 +33,148 @@ and (max-width : 1439px) {
 
 }
 
+
+
+/* ================================================  MAX WIDTH 1439px ======================================= */
+
+@media only screen 
+and (max-width : 1024px) {
+
+
+
+	/* FONT SIZES - Home & General */
+
+	.overlay h1 {
+		font-size: 25px;
+	}
+
+	.overlay h1 {
+	    font-size: 22px;
+	    line-height: 1.5;
+	}
+
+	.overlay h2 {
+	    font-size: 25px;
+	    line-height: 1.1;
+	}
+
+	.overlay a {
+	    font-size: 11px;
+	}
+
+	.textbox h3, .textbox-1 h3 {
+	    line-height: 1.1;
+	}
+
+	.textbox h4, .textbox-1 h4 {
+	    font-size: 17px;
+	}
+
+	.textbox p, .textbox-1 p {
+	    font-size: 12px;
+	}
+
+	/* Side Navigation */
+
+	.navigate {
+	    width: 250px;
+	}
+
+	.navigate .supernav li ul.dropbox {
+	    left: 85px;
+	    width: 165px;
+	}
+
+	.navigate.slipnot {
+	    width: 85px;
+	}
+
+	.slipnot .supernav li ul.dropbox li.drop-intro {
+	    padding: 25px 7% 15px;
+	}
+
+	.navigate .supernav li.subinside:hover li.drop-intro p {
+	    width: 100%;
+	}
+
+	.behindnavigate {
+	    left: 85px;
+	    width: 165px;
+	}
+
+
+
+	/* Banner Area */
+
+	.banner {
+	    margin-left: 250px;
+	    font-size: 12px;
+	}
+
+	.banner p {
+		width: 60%;
+		font-size: 13px;
+	}
+
+	.contacto span {
+		font-size: 18px;
+	}
+
+	.topnav {
+	    max-width: 356px;
+	    width: 38.6%;
+	}
+
+	.topnav li a {
+		padding: 20px 10px;
+	}
+
+
+
+	/* Content area */
+
+	.contentarea {
+		margin-left: 250px;
+	}
+
+
+
+	/* Footer */
+
+	.tier-two ul li.widest {
+		width: 30%;
+	}
+
+	li.widest > span {
+	    clear: both;
+	    display: block;
+	    margin-left: 0;
+	}
+
+	.tier-two ul li {
+		width: 30%;
+	}
+
+	.tier-two li span {
+	    font-size: 12px;
+	}
+
+	.footer .tier-one ul li a {
+	    font-size: 10px;
+	    font-weight: normal;
+	}
+
+	.footer .tier-two {
+	    height: auto;
+	    overflow: auto;
+	}
+
+
+
+}
+
+
+
 /* ================================================  MOBILES BELOW 399 ======================================= */
 
 

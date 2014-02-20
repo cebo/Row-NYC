@@ -237,6 +237,7 @@ img.right, img.alignright {float: right;margin: 0 0 7px 15px;}
 .deal-more-detail a h3,
 .the-events .event-more-details a,
 .suboverlay h4,
+.topnav li a
 {
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
