@@ -437,6 +437,21 @@ and (max-width : 1024px) {
 
 
 
+	/* SINGLE - Master Suite */
+
+	.room-details li.room-detail {
+	    width: 30.8%;
+	    margin-right: 0;
+	}
+
+	.room-detail > img {
+	    max-height: 219px;
+	    min-height: 219px;
+	    width: 100%;
+	}
+
+
+
 }
 
 
