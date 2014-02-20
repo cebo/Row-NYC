@@ -64,6 +64,10 @@ and (max-width : 1024px) {
 	h5 {
 	}
 
+	p {
+		font-size: 13px;
+	}
+
 	.overlay h1 {
 		font-size: 25px;
 	}
@@ -94,7 +98,22 @@ and (max-width : 1024px) {
 	    font-size: 12px;
 	}
 
-	/* FONT SIZES - Amenities */
+
+
+	/* GENERAL - Generic Page Settings */
+
+	.button {
+	    font-size: 14px;
+	    padding: 8px 16px;
+	}
+
+	.page-content > h1 {
+	    font-size: 30px;
+	}
+
+	.wideover {
+		padding: 15px;
+	}
 
 
 
@@ -273,6 +292,57 @@ and (max-width : 1024px) {
 
 	.the-events span {
 	    line-height: 2;
+	}
+
+
+
+	/* PAGE - Deals */
+
+	.deal-wrapper > h1 {
+	    font-size: 25px;
+	    line-height: 1.1;
+	    margin-bottom: 20px;
+	}
+
+
+
+	/* PAGE - Concierge */
+
+	.concierge-box .left {
+	    width: 370px;
+	}
+
+	.concierge-box .wideover.overlay h1 {
+	    font-size: 18px;
+	}
+
+	.page.concierge .page-content > h1 {
+	    font-size: 30px;
+	    margin-bottom: 15px;
+	}
+
+	.page.concierge .page-content > h3 {
+	    font-size: 19px;
+	    line-height: 1.2;
+	    margin-bottom: 15px;
+	}
+
+	.page.concierge .page-content div p span {
+	    font-size: 17px;
+	    margin-right: 25px;
+	}
+
+	.concierge-box.box-style-4 .right {
+	    padding: 12px 37px;
+	}
+
+	.concierge-box.box-style-4 .right p {
+	    font-size: 12px;
+	    margin-bottom: 2px;
+	}
+
+	.box-style-4 a {
+	    font-size: 14px;
 	}
 
 
