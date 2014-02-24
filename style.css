@@ -1503,6 +1503,10 @@ p {
 	width: 92%;
 	text-align: center;
 	color: #000;
+<<<<<<< HEAD
+=======
+	background: #fff;
+>>>>>>> Added reorganization of header to homepage
 }
 
 .innerbox .fa-chevron-up {

@@ -51,6 +51,7 @@
 <script type="text/javascript">
 	
 	$(document).ready(function() {
+<<<<<<< HEAD
 		$('.supernav li.subinside').hover(function() {
       
        			$('.navigate').stop().addClass("slipnot");
@@ -77,6 +78,38 @@
 			});
 		 				
 	});	
+=======
+
+		if ($(window).width() > 640) {
+
+			$('.supernav li.subinside').hover(function() {
+	      
+	       			$('.navigate').stop().addClass("slipnot");
+	  			
+	  			}, function() {
+	      	
+	      			$('.navigate').stop().removeClass("slipnot");
+	 			
+	 		});
+	 		
+	 		$(function() {
+				var fixadent = $(".topnav"), pos = fixadent.offset();
+				$(window).scroll(function() {
+				if($(this).scrollTop() > (pos.top + 10) && fixadent.css('position') == 'absolute') { fixadent.addClass('fixed'); }
+				else if($(this).scrollTop() <= pos.top && fixadent.hasClass('fixed')){ fixadent.removeClass('fixed'); }
+				})
+			});
+			 				
+		}
+
+		$(".opensays").click(function(e) {
+	 			  
+			  e.preventDefault();
+		  $(".textbox").toggleClass( "openbox" );
+		});
+
+	});
+>>>>>>> Added reorganization of header to homepage
 	
 </script>
 
@@ -333,6 +366,101 @@
 		</div>
 		
 		<div class="bottom"></div>
+<<<<<<< HEAD
+=======
+
+		<div class="banner"> 
+		
+			<p>700 8th Avenue, New York, NY 10036 <a href="#">info@rowhotel.com</a></p>
+			
+			<p class="contacto">Reservations <span>888.353.3650</span></p>
+			
+			
+			<div class="clear"></div>
+			
+		</div>	
+
+		<div class="topnav">
+			
+			<ul>
+
+				<li>
+
+					<a class="booking-link" href="#"><i class="fa fa-calendar"></i><span class="book">Book</span></a>
+							
+					<div class="dropout">
+
+						<div class="inner">
+							
+							<form action="#" target="_blank">
+
+								<input type="hidden" name="ctyhocn" value="MIAMBHF">
+								<span class="calsec">
+									<input type="text"  id="arrival_date" placeholder="" class="calendarsection" />
+									<input type="hidden" name="arrival" id="arv">
+									<i class="fa fa-calendar"></i>
+									<label>Arrive</label>
+								</span>
+								
+								<span class="calsec">
+									<input type="text" id="departure_date" placeholder="" class="calendarsection" />
+									<input name="departure" type="hidden" id="dep">
+									<i class="fa fa-calendar"></i>
+									<label>Depart</label>
+								</span>
+								
+								<span class="calsec">
+									<input type="text" id="adultscount" placeholder="" class="spinner" value="1" />
+									<label>Adults</label>
+								</span>
+								
+								<span class="calsec">
+									<input type="text" id="childcount" placeholder="" class="spinner" value="0" />
+									<label>Children</label>
+								</span>
+
+								<span class="calsec">
+									<select type="text" id="promocodetype" placeholder="">
+										<option selected="selected">Group Rate</option>
+										<option>50% Discount</option>
+										<option>20% Discount</option>
+									</select>
+									<label>Code Type</label>
+								</span>
+
+								<span class="calsec">
+									<input type="text" id="promocode" placeholder="Enter your code here" class="plain-input" />
+									<label>Code</label>
+								</span>
+								
+								<span class="calsec check-availability">
+									<button class="button" type="submit">Check Availability</button>
+								</span>
+
+								<span class="calsec">
+									<a href="#">Need A Group Rate?</a>
+								</span>
+
+								<span class="calsec">
+									<a href="#">Special Offers</a>
+								</span>
+
+							</form>
+								
+						</div>			
+					
+					</div>
+
+				</li>
+				
+				<li><a class="booking-link" href="#"><i class="fa fa-map-marker"></i><span class="locale">Location</span></a></li>
+				
+				<li><a class="booking-link" href="#"><i class="fa  fa-envelope"></i><span class="offer">Exclusive Offers</span></a></li>
+
+			</ul>
+			
+		</div>
+>>>>>>> Added reorganization of header to homepage
 	
 	</section>
 	

@@ -595,6 +595,29 @@ and (max-width : 900px) {
 
 
 
+<<<<<<< HEAD
+=======
+/* ================================================ MAX WIDTH 640 ======================================= */
+
+@media only screen 
+and (max-width : 640px) {
+
+
+
+	/* Navigation */
+
+	.navigate {
+	    position: relative;
+	    width: 100%;
+	}
+
+
+
+}
+
+
+
+>>>>>>> Added reorganization of header to homepage
 /* ================================================  MOBILES BELOW 399 ======================================= */
 
 
