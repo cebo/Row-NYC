@@ -23,6 +23,7 @@
 <!-- Plugin CSS -->
 <link rel="stylesheet" type="text/css" href="css/jscrollpane.css">
 <link rel="stylesheet" type="text/css" href="css/ui-lightness/jquery.ui.all.css">
+<link rel="stylesheet" type="text/css" href="css/jquery.mmenu.css">
 
 
 
@@ -45,73 +46,11 @@
 <script src="js/jquery.ui.button.js"></script>
 <script src="js/jquery.ui.spinner.min.js"></script>
 
+<!-- Jquery Mmenu -->
+<script src="js/jquery.mmenu.min.js"></script>
+
 <!-- Scripts -->
 <script type="text/javascript" src="js/scripts.js"></script>
-
-<script type="text/javascript">
-	
-	$(document).ready(function() {
-<<<<<<< HEAD
-		$('.supernav li.subinside').hover(function() {
-      
-       			$('.navigate').stop().addClass("slipnot");
-  			
-  			}, function() {
-      	
-      			$('.navigate').stop().removeClass("slipnot");
- 			
- 		});
- 		
- 		$(".opensays").click(function(e) {
- 			  
- 			  e.preventDefault();
-			  $(".textbox").toggleClass( "openbox" );
-			});
- 		
- 		
- 		$(function() {
-			var fixadent = $(".topnav"), pos = fixadent.offset();
-			$(window).scroll(function() {
-			if($(this).scrollTop() > (pos.top + 10) && fixadent.css('position') == 'absolute') { fixadent.addClass('fixed'); }
-			else if($(this).scrollTop() <= pos.top && fixadent.hasClass('fixed')){ fixadent.removeClass('fixed'); }
-			})
-			});
-		 				
-	});	
-=======
-
-		if ($(window).width() > 640) {
-
-			$('.supernav li.subinside').hover(function() {
-	      
-	       			$('.navigate').stop().addClass("slipnot");
-	  			
-	  			}, function() {
-	      	
-	      			$('.navigate').stop().removeClass("slipnot");
-	 			
-	 		});
-	 		
-	 		$(function() {
-				var fixadent = $(".topnav"), pos = fixadent.offset();
-				$(window).scroll(function() {
-				if($(this).scrollTop() > (pos.top + 10) && fixadent.css('position') == 'absolute') { fixadent.addClass('fixed'); }
-				else if($(this).scrollTop() <= pos.top && fixadent.hasClass('fixed')){ fixadent.removeClass('fixed'); }
-				})
-			});
-			 				
-		}
-
-		$(".opensays").click(function(e) {
-	 			  
-			  e.preventDefault();
-		  $(".textbox").toggleClass( "openbox" );
-		});
-
-	});
->>>>>>> Added reorganization of header to homepage
-	
-</script>
 
 
 <!-- Lightbox -->	
@@ -121,7 +60,7 @@
   $(document).ready(function(){
 
     $("a[rel^='prettyPhoto']").prettyPhoto({
-    	default_width: 800,
+    	// default_width: 800,
     	social_tools: false,
     	theme: 'dark_square',
     	opacity: 0.8,
@@ -173,7 +112,7 @@
 			
 			<div class="logobox">
 			
-				<a class="logo" href="/rownyc.com/united/"><img src="images/logo.png" alt="Row NYC" /></a>
+				<a class="logo" href="/rownyc.com/united/"><img src="/rownyc.com/united/images/logo.png" alt="Row NYC" /></a>
 				
 				
 				<div class="languages"></div>
@@ -209,7 +148,7 @@
 			<li class="subinside">
 				<a href="/rownyc.com/united/rooms.html"><span class="rooms"></span><p>Rooms</p></a>
 				
-					<ul id="dropbox" class="dropbox">
+					<ul class="dropbox">
 					
 						<li class="drop-intro">
 							
@@ -219,7 +158,7 @@
 							
 						</li>
 						<li>
-							<a href="/rownyc.com/united/master-suite.html"><img src="images/rooms/nav-master-suite.jpg" alt="#"></a>
+							<a href="/rownyc.com/united/master-suite.html"><img src="/rownyc.com/united/images/rooms/nav-master-suite.jpg" alt="#"></a>
 							<h3>Master Suite</h3>
 						</li>
 						
@@ -305,24 +244,24 @@
 							
 						</li>
 						<li>
-							<a href="#"><img src="images/movie.jpg" alt="#"></a>
+							<a href="#"><img src="/rownyc.com/united/images/movie.jpg" alt="#"></a>
 							<h3>1 Queen Bed</h3>
 						</li>
 						
 						<li>
-							<a href="#"><img src="images/movie.jpg" alt="#"></a>
+							<a href="#"><img src="/rownyc.com/united/images/movie.jpg" alt="#"></a>
 							<h3>1 Queen Bed</h3>
 						</li>
 						<li>
-							<a href="#"><img src="images/movie.jpg" alt="#"></a>
+							<a href="#"><img src="/rownyc.com/united/images/movie.jpg" alt="#"></a>
 							<h3>1 Queen Bed</h3>
 						</li>
 						<li>
-							<a href="#"><img src="images/movie.jpg" alt="#"></a>
+							<a href="#"><img src="/rownyc.com/united/images/movie.jpg" alt="#"></a>
 							<h3>1 Queen Bed</h3>
 						</li>
 						<li>
-							<a href="#"><img src="images/movie.jpg" alt="#"></a>
+							<a href="#"><img src="/rownyc.com/united/images/movie.jpg" alt="#"></a>
 							<h3>1 Queen Bed</h3>
 						</li>
 						
@@ -366,8 +305,199 @@
 		</div>
 		
 		<div class="bottom"></div>
-<<<<<<< HEAD
-=======
+	
+	</section>
+
+	<!-- <section class="navigate">
+		
+			
+			
+			<div class="logobox">
+			
+				<a class="logo" href="/rownyc.com/united/"><img src="images/logo.png" alt="Row NYC" /></a>
+				
+				
+				<div class="languages"></div>
+			
+			</div>
+
+			<a class="mmenu-icon" href="#menu"><i class="fa fa-bars"></i></a>			
+			
+			<nav id="menu">
+
+				<ul>
+			
+				<li>
+					<a href="/rownyc.com/united/page-amenities.html"><span class="hotel"></span><p>Hotel</p></a>
+					
+						<ul class="dropdown">
+						
+							<li>
+								<a href="#">This is a title</a>
+							</li>
+							<li>
+								<a href="#">This is a title</a>
+							</li>
+							
+							<li>
+								<a href="#">This is a title</a>
+							</li>
+							
+						</ul>
+				</li>
+				
+				<li>
+					<a href="#"><span class="reserve"></span><p>Reservations</p></a>
+				</li>
+
+				<li>
+					<a href="/rownyc.com/united/rooms.html"><span class="rooms"></span><p>Rooms</p></a>
+					
+						<ul>
+						
+							<li>
+								<a href="/rownyc.com/united/master-suite.html"><img src="images/rooms/nav-master-suite.jpg" alt="#"></a>
+								<h3>Master Suite</h3>
+							</li>
+							
+							<li>
+								<a href="#"><img src="/rownyc.com/united/images/rooms/nav-junior-suite.jpg" alt="#"></a>
+								<h3>Junior Suite</h3>
+							</li>
+							<li>
+								<a href="#"><img src="/rownyc.com/united/images/rooms/nav-king-bed.jpg" alt="#"></a>
+								<h3>1 King Bed</h3>
+							</li>
+							<li>
+								<a href="#"><img src="/rownyc.com/united/images/rooms/nav-queen-bed.jpg" alt="#"></a>
+								<h3>1 Queen Bed</h3>
+							</li>
+							<li>
+								<a href="#"><img src="/rownyc.com/united/images/rooms/nav-double-beds.jpg" alt="#"></a>
+								<h3>2 Double Beds</h3>
+							</li>
+							<li>
+								<a href="#"><img src="/rownyc.com/united/images/rooms/nav-double-bed.jpg" alt="#"></a>
+								<h3>1 Double Bed</h3>
+							</li>
+							<li>
+								<a href="#"><img src="/rownyc.com/united/images/rooms/nav-twin-beds.jpg" alt="#"></a>
+								<h3>2 Twin Beds</h3>
+							</li>
+							
+						</ul>
+				</li>
+				<li>
+					<a href="#"><span class="gallery"></span><p>Gallery</p></a>
+				</li>
+				
+				<li>
+					<a href="/rownyc.com/united/page-deals.html"><span class="deals"></span><p>Deals</p></a>
+					
+						<ul class="dropdown">
+						
+							<li>
+								<a href="#">This is a title</a>
+							</li>
+							<li>
+								<a href="#">This is a title</a>
+							</li>
+							
+							<li>
+								<a href="#">This is a title</a>
+							</li>
+							
+						</ul>
+				</li>
+				
+				<li>
+					<a href="/rownyc.com/united/page-eat-drink.html"><span class="eats"></span><p>Eat & Drink</p></a>
+					
+						<ul class="dropdown">
+						
+							<li>
+								<a href="#">This is a title</a>
+							</li>
+							<li>
+								<a href="#">This is a title</a>
+							</li>
+							
+							<li>
+								<a href="#">This is a title</a>
+							</li>
+							
+						</ul>
+				</li>
+				
+				<li>
+					<a href="/rownyc.com/united/explore.html"><span class="explore"></span><p>Explore NYC</p></a>
+					
+						<ul>
+						
+							<li>
+								<a href="#"><img src="images/movie.jpg" alt="#"></a>
+								<h3>1 Queen Bed</h3>
+							</li>
+							
+							<li>
+								<a href="#"><img src="images/movie.jpg" alt="#"></a>
+								<h3>1 Queen Bed</h3>
+							</li>
+							<li>
+								<a href="#"><img src="images/movie.jpg" alt="#"></a>
+								<h3>1 Queen Bed</h3>
+							</li>
+							<li>
+								<a href="#"><img src="images/movie.jpg" alt="#"></a>
+								<h3>1 Queen Bed</h3>
+							</li>
+							<li>
+								<a href="#"><img src="images/movie.jpg" alt="#"></a>
+								<h3>1 Queen Bed</h3>
+							</li>
+							
+						</ul>
+						
+				</li>
+				
+				<li>
+					<a href="/rownyc.com/united/page-contact.html"><span class="contact"></span><p>Contact</p></a>
+				</li>
+				
+				<li>
+					<a href="#"><span class="blog"></span><p>Apple Blog</p></a>
+				</li>
+			
+			</ul>
+
+		</nav>
+		
+		<div class="finished">
+			
+			<div class="weatherbox">
+			
+			
+			</div>
+			
+			
+			<div class="events">
+			
+				<h1>Upcoming Event</h1>
+				
+			</div>
+			
+			
+			<div class="socials">
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-pinterest"></i></a>
+				<a href="#"><i class="fa fa-instagram"></i></a>
+				<a href="#"><i class="fa fa-youtube"></i></a>
+			</div>
+		
+		</div>
+		
+		<div class="bottom"></div>
 
 		<div class="banner"> 
 		
@@ -460,9 +590,8 @@
 			</ul>
 			
 		</div>
->>>>>>> Added reorganization of header to homepage
 	
-	</section>
+	</section> -->
 	
 	
 	<div class="behindnavigate"></div>
@@ -983,6 +1112,48 @@
 			
 			
 			<div class="footer">
+
+				<section class="navigate">
+					<ul class="supernav">
+		
+						<li>
+							<a href="/rownyc.com/united/page-amenities.html"><span class="hotel"></span><p>Hotel</p></a>
+						</li>
+						
+						<li>
+							<a href="#"><span class="reserve"></span><p>Reservations</p></a>
+						</li>
+
+						<li>
+							<a href="/rownyc.com/united/rooms.html"><span class="rooms"></span><p>Rooms</p></a>
+						</li>
+						<li>
+							<a href="#"><span class="gallery"></span><p>Gallery</p></a>
+						</li>
+						
+						<li>
+							<a href="/rownyc.com/united/page-deals.html"><span class="deals"></span><p>Deals</p></a>
+						</li>
+						
+						<li>
+							<a href="/rownyc.com/united/page-eat-drink.html"><span class="eats"></span><p>Eat & Drink</p></a>
+						</li>
+						
+						<li>
+							<a href="/rownyc.com/united/explore.html"><span class="explore"></span><p>Explore NYC</p></a>
+						</li>
+						
+						<li>
+							<a href="/rownyc.com/united/page-contact.html"><span class="contact"></span><p>Contact</p></a>
+						</li>
+						
+						<li>
+							<a href="#"><span class="blog"></span><p>Apple Blog</p></a>
+						</li>
+					
+					</ul>
+
+				</section>
 			
 				<div class="tier-one">
 				

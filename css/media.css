@@ -362,12 +362,12 @@ and (max-width : 1279px) {
 	    font-size: 18px;
 	}
 
-	.page.concierge .page-content > h1 {
+	.page.concierge .page-content > h1, .page.concierge .page-content .concierge-top-wrapper h1 {
 	    font-size: 30px;
 	    margin-bottom: 15px;
 	}
 
-	.page.concierge .page-content > h3 {
+	.page.concierge .page-content > h3, .page.concierge .page-content .concierge-top-wrapper h3 {
 	    font-size: 19px;
 	    line-height: 1.2;
 	    margin-bottom: 15px;
@@ -595,8 +595,6 @@ and (max-width : 900px) {
 
 
 
-<<<<<<< HEAD
-=======
 /* ================================================ MAX WIDTH 640 ======================================= */
 
 @media only screen 
@@ -606,10 +604,355 @@ and (max-width : 640px) {
 
 	/* Navigation */
 
-	.navigate {
+	/*.navigate {
 	    position: relative;
 	    width: 100%;
 	}
+	*/
+	.behindnavigate {
+		display: none;
+	}
+
+	.navigate {
+		display: none;
+	}
+
+
+
+	/* MMenu */
+
+	/*.mm-ismenu {
+	    background: none repeat scroll 0 0 #222;
+	}
+
+	.mm-list p {
+	    color: #FFFFFF;
+	    font-size: 15px;
+	    padding-bottom: 0;
+	}*/
+
+
+
+	/* FOOTER */
+
+	.footer .navigate {
+	    display: block;
+	    position: relative;
+	    width: 100%;
+	}
+
+	.footer .supernav {
+	    padding-bottom: 0;
+	}
+
+	.footer .navigate .supernav li {
+	    text-align: center;
+	}
+
+	.footer .navigate .supernav li a {
+	    display: inline-block;
+	}
+
+	.footer .navigate .supernav li span {
+	    left: -70px;
+	    position: relative;
+	}
+
+	.footer .navigate .supernav li p {
+	    float: none;
+	    left: 45%;
+	    text-align: left;
+	}
+
+
+
+
+	/* Home */
+
+	.contentarea {
+	    margin-left: 0;
+	}
+
+	.banner {
+	    margin-left: 0;
+	}
+
+	.home-intro {
+		height: 340px;
+	}
+
+	/* Supposedly give no spacing to homepage - only uncomment if necessary */
+
+	/*
+	.home-intro,
+	.picone,
+	.leftside .guestrooms {
+		margin-bottom: 0;
+	}*/
+
+	.littleover {
+		width: 90%;
+	}
+
+	.blogposts li:hover .littleover {
+	    width: 90%
+	}
+
+
+	.third-level {
+	    height: auto;
+	    overflow: auto;
+	}
+
+	.third-level .leftside, .third-level .rightside {
+	    clear: both;
+	    display: block;
+	    float: none;
+	    height: 400px;
+	    margin-bottom: 10px;
+	    overflow: auto;
+	    position: relative;
+	    width: 100%;
+	}
+
+	.fourth-level {
+		margin: 0 0 12px;
+	}
+
+
+
+	/* PAGE - General Settings */
+
+	.page .innerbox .fa {
+	    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+
+	.page.time-square .textbox {
+		width: 100%;
+	}
+
+	.page .third-level {
+		width: auto;
+	}
+
+
+
+	/* PAGE - Time Square */
+
+	.page.time-square .home-intro {
+		border-bottom: 5px solid rgba(255, 255, 255, 0.5);
+		margin-left: 0;
+	}
+
+	.page .maparea.right {
+	    height: 300px;
+	    margin-right: -30px;
+	    margin-top: -30px;
+	    position: relative;
+	    right: auto;
+	    width: 111%;
+	}
+
+	.page-content .listed-content {
+	    float: left;
+	    margin-bottom: 20px;
+	    margin-right: 10px;
+	    overflow: hidden;
+	    width: 174px;
+	    margin-bottom: 20px;
+	}
+
+	.listed-content:nth-child(6) {
+	    clear: none;
+	}
+
+
+
+	/* SINGLE - Event */
+
+	.main-page-content.left {
+	    width: 47%;
+	}
+
+	.maparea.right {
+	    width: 45%;
+	    max-height: 400px;
+	    top: 77px;
+	}
+
+	.extra-details.right, .text-content.left {
+	    float: none;
+	    padding-top: 0;
+	    width: 100%;
+	}
+
+	.right.social-tickets {
+	    clear: both;
+	    float: right;
+	    position: absolute;
+	    right: 0;
+	    top: 20px;
+	    width: 45%;
+	    display: block;
+	}
+
+	.extra-details .social-media-details, .extra-details .button-details {
+		display: none;
+	}
+
+	.extra-detail.social-media-details.left, .extra-detail.button-details.left {
+	    clear: none;
+	    display: block;
+	    height: auto;
+	    width: auto;
+	    margin-top: 0;
+	}
+
+	.extra-detail.button-details.left {
+		margin-right: 30px;
+	}
+
+
+
+	/* Single - Explore */
+
+	.extra-details.right div {
+	    float: left;
+	    width: 50%;
+	}
+
+
+
+	/* PAGE - Group Rates */
+
+	.rate-box {
+	    top: 5%;
+	}
+
+
+
+	/* PAGE - Eat & Drink */
+
+	.page .fullvertical .rightside, .page .fullvertical .leftside {
+	    clear: none;
+	    height: 100%;
+	}
+
+	.page .fullvertical .rightside {
+		float: 	right;
+	}
+
+	.page .fullvertical .leftside {
+		float: left;
+	}
+
+	.page .fullvertical .suboverlay p {
+	    font-size: 12px;
+	}
+
+
+
+	/* PAGE - Amenities */
+
+	.amenities .third-level .rightside, .amenities .third-level .leftside {
+	    height: 300px;
+	}
+
+
+
+	/* SINGLE - Amenity */
+
+	.amenity-featured-images.right {
+		display: none;
+	}
+
+	.main-page-content.left {
+	    width: 88%;
+	}
+
+
+
+	/* SINGLE - Rooms */
+
+	.rooms .suboverlay h1 {
+	    font-size: 20px;
+	}
+
+	.rooms .suboverlay h4 {
+		font-size: 15px;
+	}
+
+	.room-details-content .detail-features ul li {
+	    font-size: 12px;
+	    line-height: 1.5;
+	    padding-left: 40px;
+	}
+
+
+
+	/* PAGE - Events */
+
+	.the-events > ul {
+	    margin-right: 30px;
+	}
+
+	.the-events h2 {
+	    font-size: 16px;
+	}
+
+	.the-events span {
+	    font-size: 13px;
+	    line-height: 1.7;
+	}
+
+	.event-name {
+	    font-size: 13px;
+	}
+
+	.the-events span {
+	    font-size: 12px;
+	    line-height: 1.7;
+	}
+
+	.the-events .event-more-details {
+	    clear: both;
+	    float: left;
+	}
+
+
+
+	/* PAGE - Concierge */
+
+	.page.concierge .page-content {
+	    padding: 20px 0;
+	}
+
+	.concierge-box .left {
+	    margin-left: 0;
+	    width: 370px;
+	}
+
+	.concierge-box .right {
+	    padding: 5% 3.7% 3.7%;
+	}
+
+	.concierge-box.box-style-4 .right {
+	    padding: 12px 20px;
+	}
+
+	.concierge-top-wrapper {
+	    padding: 0 20px;
+	}
+
+
+
+	/* PAGE - Contact */
+
+	.contact .text-content.right, .page.contact .main-page-content.inverted-location.left {
+	    width: 48%;
+	}
+
+
 
 
 
@@ -617,7 +960,6 @@ and (max-width : 640px) {
 
 
 
->>>>>>> Added reorganization of header to homepage
 /* ================================================  MOBILES BELOW 399 ======================================= */
 
 

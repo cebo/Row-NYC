@@ -237,7 +237,8 @@ img.right, img.alignright {float: right;margin: 0 0 7px 15px;}
 .deal-more-detail a h3,
 .the-events .event-more-details a,
 .suboverlay h4,
-.topnav li a
+.topnav li a,
+.social-media-details i
 {
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
@@ -1185,6 +1186,17 @@ p {
 
 
 
+/* FOOTER ---------------------------------------------------- */
+
+.footer .navigate {
+	display: none;
+}
+
+
+
+
+
+
 
 /* Home Page Styles ---------------------------------------------------- */
 
@@ -1503,10 +1515,7 @@ p {
 	width: 92%;
 	text-align: center;
 	color: #000;
-<<<<<<< HEAD
-=======
 	background: #fff;
->>>>>>> Added reorganization of header to homepage
 }
 
 .innerbox .fa-chevron-up {
@@ -1891,6 +1900,10 @@ p {
     width: 361px;
 }
 
+.right.social-tickets {
+	display: none;
+}
+
 .page .page-content {
 	padding: 30px;
 }
@@ -2244,6 +2257,9 @@ p {
     color: #666666;
     font-size: 30px;
 }
+	.social-media-details i:hover {
+		color: #FA9C03;
+	}
 
 
 
@@ -2365,13 +2381,13 @@ p {
     padding: 20px 40px;
 }
 
-.page.concierge .page-content > h1 {
+.page.concierge .page-content > h1, .page.concierge .page-content .concierge-top-wrapper h1 {
     font-size: 40px;
     line-height: 1;
     margin-bottom: 20px;
 }
 
-.page.concierge .page-content > h3 {
+.page.concierge .page-content > h3, .page.concierge .page-content .concierge-top-wrapper h3 {
     color: #999999;
     font-size: 22px;
     line-height: 1.2;
