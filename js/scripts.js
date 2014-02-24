@@ -10,7 +10,7 @@ $(document).ready(function(){
 			zpos	= 'mm-front mm-next';
 
 		var $html 	= $('html'),
-			$menu	= $('nav#menu'),
+			$menu	= $('nav#menu.mobile'),
 			$both	= $html.add( $menu );
 
 		$menu.mmenu();
@@ -54,16 +54,16 @@ $(document).ready(function(){
 
 		if ($(window).width() > 940) {
 
-			var $menu	= $('nav#menu');
+			var $menu	= $('nav#menu.mobile');
 			$menu.removeClass()
-			$('nav#menu ul').removeClass()
+			$('nav#menu.mobile ul').removeClass()
 			$('#primary-nav .container').prepend($menu);
 
 		} else {
 
-			var $menu	= $('nav#menu');
+			var $menu	= $('nav#menu.mobile');
 			$menu.addClass('fl mm-menu mm-horizontal mm-ismenu')
-			$('nav#menu ul').addClass('mm-list mm-panel mm-opened mm-current')
+			$('nav#menu.mobile ul').addClass('mm-list mm-panel mm-opened mm-current')
 			$('html').prepend($menu);
 
 		}
