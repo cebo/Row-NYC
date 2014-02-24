@@ -251,7 +251,8 @@ img.right, img.alignright {float: right;margin: 0 0 7px 15px;}
 
 .topnav .calsec i,
 .topnav .calsec > a,
-.finished.mobile .right i
+.finished.mobile .right i,
+.footer .navigate .supernav li a
 {
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
