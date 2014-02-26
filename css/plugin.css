@@ -17,6 +17,22 @@
     width: auto;
 }
 
+.flex-control-paging li a {
+    background: none repeat scroll 0 0 #DDDDDD;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+}
+    .flex-control-paging li a:hover {
+        background: none repeat scroll 0 0 #000000;
+    }
+
+.flex-control-paging li a.flex-active {
+    background: none repeat scroll 0 0 #666666;
+}
+
 
 
 /* Prettyphoto ---------------------------------------------------- */

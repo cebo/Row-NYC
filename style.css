@@ -252,7 +252,8 @@ img.right, img.alignright {float: right;margin: 0 0 7px 15px;}
 .topnav .calsec i,
 .topnav .calsec > a,
 .finished.mobile .right i,
-.footer .navigate .supernav li a
+.footer .navigate .supernav li a,
+.gallery-categories a
 {
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
@@ -3128,6 +3129,75 @@ p {
 	width: 100%;
 	height: 500px;
 }
+
+
+
+/* PAGE - Gallery ---------------------------------------------------- */
+
+.gallery .fourth-level {
+	margin-top: 0;
+}
+
+.gallery .flexslider {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-ms-box-shadow: none;
+	-o-box-shadow: none;
+    height: 620px;
+    padding-bottom: 30px;
+}
+
+.gallery .flexslider .slides > li {
+	height: 600px;
+}
+
+.gallery .flexslider .slides img {
+    height: auto;
+    width: 100%;
+}
+
+.gallery .rooms-book-now.slide-booking {
+    bottom: auto;
+    height: auto;
+    position: relative;
+}
+
+.gallery-description {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
+    bottom: 0;
+    clear: both;
+    position: absolute;
+    width: 100%;
+}
+
+.gallery-description > p {
+    padding: 20px;
+}
+
+.gallery-categories {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+
+.gallery-categories > ul {
+    text-align: center;
+}
+
+.gallery-categories li {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: normal;
+    margin-right: 30px;
+}
+
+.gallery-categories a {
+    color: #777777;
+    font-family: gothambook;
+    text-transform: uppercase;
+}
+	.gallery-categories a:hover {
+	    color: #FFA500;
+	}
 
 
 
