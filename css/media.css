@@ -564,6 +564,18 @@ and (max-width : 900px) {
 
 
 
+	/* PAGE - General Settings */
+
+	.page .third-level {
+		height: auto;
+	}
+
+	.fourth-level {
+		margin: 0 0 12px;
+	}
+
+
+
 
 	/* Homepage content */
 
@@ -625,6 +637,155 @@ and (max-width : 900px) {
 
 	.eat-drink .innerbox .fa {
 	    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+
+
+
+	/* PAGE - Concierge */
+
+	.page.concierge .page-content {
+	    padding: 20px 0;
+	}
+
+	.concierge-box .left {
+	    margin-left: 0;
+	    width: 300px;
+	}
+
+	.concierge-box .wideover.overlay h1 {
+	    font-size: 15px;
+	}
+
+	.concierge-box .right {
+	    padding: 5% 3.7% 3.7%;
+	}
+
+	.concierge-box .right p {
+	    font-size: 12px;
+	}
+
+	.concierge-box.box-style-4 .right {
+	    padding: 12px 20px;
+	}
+
+	.concierge-box.box-style-4 .right p {
+	    margin-bottom: 0;
+	}
+
+	.concierge-top-wrapper {
+	    padding: 0 20px;
+	}
+
+	.concierge-box .right a {
+	    font-size: 12px;
+	}
+
+
+
+	/* PAGE - Contact */
+
+	.page .main-page-content.inverted-location.left {
+	    margin-bottom: 20px;
+	    width: 100%;
+	}
+
+	.maparea.left {
+	    height: 200px;
+	}
+
+	.text-content.right {
+	    width: 100%;
+	}
+
+
+
+	/* PAGE - Deals */
+
+	.deal-wrapper > h1 {
+	    font-size: 20px;
+	}
+
+		.deal-wrapper {
+	    padding: 20px 30px 30px;
+	}
+
+
+
+	/* PAGE - Events */
+
+	.the-events > ul {
+	    width: 40%;
+	    float: left;
+	}
+
+
+
+	/* SINGLE - Event */
+
+	.main-page-content.left {
+	    width: 47%;
+	}
+
+	.maparea.right {
+	    width: 45%;
+	    max-height: 400px;
+	    top: 77px;
+	}
+
+	.extra-details.right, .text-content.left {
+	    float: none;
+	    padding-top: 0;
+	    width: 100%;
+	}
+
+	.right.social-tickets {
+	    clear: both;
+	    float: right;
+	    position: absolute;
+	    right: 0;
+	    top: 20px;
+	    width: 45%;
+	    display: block;
+	}
+
+	.extra-details .social-media-details, .extra-details .button-details {
+		display: none;
+	}
+
+	.extra-detail.social-media-details.left, .extra-detail.button-details.left {
+	    clear: none;
+	    display: block;
+	    height: auto;
+	    width: auto;
+	    margin-top: 0;
+	}
+
+	.extra-detail.button-details.left {
+		margin-right: 30px;
+	}
+
+
+
+	/* SINGLE - Amenity */
+
+	.amenity-featured-images.right {
+		display: none;
+	}
+
+	.amenity .main-page-content.left {
+	    width: 88%;
+	}
+
+
+
+	/* PAGE - Gallery */
+
+	.gallery .flexslider {
+	    height: 390px;
+	}
+
+	.gallery .flexslider .slides > li {
+	    height: 360px;
 	}
 
 
@@ -999,52 +1160,6 @@ and (max-width : 640px) {
 
 
 
-	/* SINGLE - Event */
-
-	.main-page-content.left {
-	    width: 47%;
-	}
-
-	.maparea.right {
-	    width: 45%;
-	    max-height: 400px;
-	    top: 77px;
-	}
-
-	.extra-details.right, .text-content.left {
-	    float: none;
-	    padding-top: 0;
-	    width: 100%;
-	}
-
-	.right.social-tickets {
-	    clear: both;
-	    float: right;
-	    position: absolute;
-	    right: 0;
-	    top: 20px;
-	    width: 45%;
-	    display: block;
-	}
-
-	.extra-details .social-media-details, .extra-details .button-details {
-		display: none;
-	}
-
-	.extra-detail.social-media-details.left, .extra-detail.button-details.left {
-	    clear: none;
-	    display: block;
-	    height: auto;
-	    width: auto;
-	    margin-top: 0;
-	}
-
-	.extra-detail.button-details.left {
-		margin-right: 30px;
-	}
-
-
-
 	/* Single - Explore */
 
 	.extra-details.right div {
@@ -1091,14 +1206,43 @@ and (max-width : 640px) {
 
 
 
-	/* SINGLE - Amenity */
+	/* PAGE - Concierge */
 
-	.amenity-featured-images.right {
-		display: none;
+	.page.concierge .page-content {
+	    padding: 20px 0;
 	}
 
-	.main-page-content.left {
-	    width: 88%;
+	.concierge-box .left {
+	    margin-left: 0;
+	    width: 370px;
+	}
+
+	.concierge-box .wideover.overlay h1 {
+	    font-size: 18px;
+	}
+
+	.concierge-box .right {
+	    padding: 5% 3.7% 3.7%;
+	}
+
+	.concierge-box.box-style-4 .right {
+	    padding: 12px 20px;
+	}
+
+	.concierge-box.box-style-4 .right p {
+	    margin-bottom: 2px;
+	}
+
+	.concierge-top-wrapper {
+	    padding: 0 20px;
+	}
+
+	.concierge-box .right p {
+	    font-size: 13px;
+	}
+
+	.concierge-box .right a {
+	    font-size: 14px;
 	}
 
 
@@ -1125,6 +1269,8 @@ and (max-width : 640px) {
 
 	.the-events > ul {
 	    margin-right: 30px;
+	    width: 27%;
+	    float: none;
 	}
 
 	.the-events h2 {
@@ -1148,31 +1294,6 @@ and (max-width : 640px) {
 	.the-events .event-more-details {
 	    clear: both;
 	    float: left;
-	}
-
-
-
-	/* PAGE - Concierge */
-
-	.page.concierge .page-content {
-	    padding: 20px 0;
-	}
-
-	.concierge-box .left {
-	    margin-left: 0;
-	    width: 370px;
-	}
-
-	.concierge-box .right {
-	    padding: 5% 3.7% 3.7%;
-	}
-
-	.concierge-box.box-style-4 .right {
-	    padding: 12px 20px;
-	}
-
-	.concierge-top-wrapper {
-	    padding: 0 20px;
 	}
 
 

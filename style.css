@@ -3188,6 +3188,7 @@ p {
     font-size: 13px;
     font-weight: normal;
     margin-right: 30px;
+    line-height: 2;
 }
 
 .gallery-categories a {
